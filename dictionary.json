@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2026-05-28T00:00:00Z",
+  "version": "1.1.0",
+  "lastUpdated": "2026-05-28T12:00:00Z",
 
   "loci": {
 
@@ -153,6 +153,17 @@
       }
     },
 
+    "black_head_complex": {
+      "id": "black_head_complex",
+      "name": "Black Head",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal":     { "id": "normal",     "name": "Normal"     },
+        "black_head": { "id": "black_head", "name": "Black Head" }
+      }
+    },
+
     "banana_locus": {
       "id": "banana_locus",
       "name": "Banana / Coral Glow",
@@ -198,6 +209,10 @@
     {
       "marketName": "Freeway",
       "requiredGenotype": { "yellowbelly_complex": ["yellowbelly", "asphalt"] }
+    },
+    {
+      "marketName": "Super Black Head",
+      "requiredGenotype": { "black_head_complex": ["black_head", "black_head"] }
     }
   ],
 
