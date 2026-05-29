@@ -110,20 +110,39 @@ New locus entries should be based on publicly documented genetic work or well-es
 
 ## Versioning
 
-Bump `version` in `dictionary.json` using SemVer:
+Bump `version` in `dictionary.json` using SemVer. The release workflow reads this field and creates a matching immutable git tag (`v{version}`) automatically on merge.
 
 - **Patch** (`1.0.x`): correcting a name, adding a missing defect label, fixing a typo.
 - **Minor** (`1.x.0`): adding new loci, alleles, combos, or lethality rules.
-- **Major** (`x.0.0`): removing or renaming a locus/allele ID that engine consumers reference by key.
+- **Major** (`x.0.0`): removing or renaming a locus/allele ID that engine consumers reference by key — this is a breaking change for any SPA pinned to the old version.
 
-Always update `lastUpdated` to the current UTC timestamp.
+Always update `lastUpdated` to the current UTC timestamp alongside the version bump.
+
+If your change does not affect the data (e.g. a README or workflow edit), do not bump the version — the existing tag already covers those commits and no new CDN URL is needed.
+
+---
+
+## How releases work
+
+Every merge to `main` triggers `.github/workflows/release.yml`, which:
+
+1. Validates `dictionary.json` against `schema.json` — **if validation fails, the release is blocked**.
+2. Reads `version` from `dictionary.json`.
+3. Creates a GitHub Release tagged `v{version}` **only if that tag does not already exist**.
+
+The release notes include the exact immutable CDN URL for that version:
+```
+https://cdn.jsdelivr.net/gh/trailofdad/morphkit-dictionary@{version}/dictionary.json
+```
+
+SPA maintainers update their `DICTIONARY_VERSION` environment variable to consume the new release.
 
 ---
 
 ## PR checklist
 
-- [ ] `npx ajv-cli validate -s schema.json -d dictionary.json` passes
-- [ ] `version` and `lastUpdated` are bumped
+- [ ] `npx ajv-cli validate -s schema.json -d dictionary.json` passes locally
+- [ ] `version` is bumped (patch / minor / major as appropriate) and `lastUpdated` is updated
 - [ ] `locusId`, `alleleId`, and `name` follow the naming conventions above
 - [ ] New loci include a `"normal"` allele
 - [ ] Allele IDs in `requiredGenotype` / `triggerGenotype` match the corresponding locus `alleles` map

@@ -6,7 +6,9 @@ The dictionary is versioned and distributed independently from the engine so tha
 
 ## CDN
 
-The engine fetches this file at runtime via `syncDictionary`:
+### Development
+
+During local development, `@latest` is convenient:
 
 ```ts
 import { syncDictionary } from 'morphkit';
@@ -16,7 +18,38 @@ const dictionary = await syncDictionary(
 );
 ```
 
-A stale-while-revalidate cache (24-hour TTL in `localStorage`) means most page loads resolve instantly from cache.
+**Do not use `@latest` in production.** jsDelivr caches the `@latest` pointer at edge nodes for up to 24 hours. Combined with morphkit's own stale-while-revalidate browser cache, a critical dictionary fix could take two full invalidation cycles — up to 48 hours — to reach a user after it is merged.
+
+### Production
+
+Target a specific version tag. jsDelivr permanently caches immutable version URLs, so there is no propagation delay and no stale-edge risk:
+
+```
+https://cdn.jsdelivr.net/gh/trailofdad/morphkit-dictionary@1.0.0/dictionary.json
+```
+
+**Recommended pattern** — drive the version from an environment variable so a dictionary update requires only a config change, not a code deploy:
+
+```ts
+const version = process.env.DICTIONARY_VERSION ?? '1.0.0';
+const dictionary = await syncDictionary(
+  `https://cdn.jsdelivr.net/gh/trailofdad/morphkit-dictionary@${version}/dictionary.json`
+);
+```
+
+When a new dictionary version is released, update `DICTIONARY_VERSION` in your environment and redeploy (or push it from a config API without a full redeploy). The release notes for each version include the exact CDN URL to use.
+
+### Automated releases
+
+Every merge to `main` runs the [release workflow](./.github/workflows/release.yml):
+
+1. Validates `dictionary.json` against `schema.json` — the push is blocked if validation fails.
+2. Reads `version` from `dictionary.json`.
+3. If that version tag does not already exist on the repo, creates a GitHub Release and tags the commit `v{version}`.
+
+This means the immutable CDN URL for a release is available seconds after a PR merges — not 24 hours later. To publish a new version, bump `version` (and `lastUpdated`) in `dictionary.json` as part of your PR.
+
+A stale-while-revalidate cache (24-hour TTL in `localStorage`) means most page loads resolve instantly from cache regardless of which URL pattern you use.
 
 ## Dictionary schema
 
