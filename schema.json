@@ -1,0 +1,144 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/trailofdad/morphkit-dictionary/schema.json",
+  "title": "MorphkitDictionary",
+  "description": "The Morphkit genetic dictionary — trait data consumed by the morphkit engine.",
+  "type": "object",
+  "required": ["version", "lastUpdated", "loci", "combos", "lethalCombos", "polygenicTags"],
+  "additionalProperties": false,
+
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "SemVer string, e.g. \"1.0.0\".",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+
+    "lastUpdated": {
+      "type": "string",
+      "description": "ISO 8601 timestamp of the last change to this file.",
+      "format": "date-time"
+    },
+
+    "loci": {
+      "type": "object",
+      "description": "Map of locusId → LocusDefinition. Keys are snake_case locus identifiers.",
+      "additionalProperties": { "$ref": "#/$defs/LocusDefinition" }
+    },
+
+    "combos": {
+      "type": "array",
+      "description": "Named market combos that require specific allele pairings across one or more loci.",
+      "items": { "$ref": "#/$defs/ComboDefinition" }
+    },
+
+    "lethalCombos": {
+      "type": "array",
+      "description": "Genotypes that are embryonically lethal. The engine sets isLethal: true for any matching outcome.",
+      "items": { "$ref": "#/$defs/LethalComboDefinition" }
+    },
+
+    "polygenicTags": {
+      "type": "array",
+      "description": "Valid polygenic trait labels (e.g. Jungle, Black Back). Free-form; the engine does not validate these against loci.",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    }
+  },
+
+  "$defs": {
+    "InheritanceType": {
+      "type": "string",
+      "enum": ["recessive", "dominant", "incomplete_dominant", "polygenic"]
+    },
+
+    "AlleleDefinition": {
+      "type": "object",
+      "required": ["id", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier within this locus, snake_case. Must match its parent map key.",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable display name, e.g. \"Clown\" or \"Banana / Coral Glow\"."
+        },
+        "defects": {
+          "type": "array",
+          "description": "Congenital or neurological defect labels associated with this allele (even in the heterozygous state).",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "LocusDefinition": {
+      "type": "object",
+      "required": ["id", "name", "inheritance", "isSexLinked", "alleles"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Must match its parent map key.",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable locus name, e.g. \"Yellowbelly Complex\"."
+        },
+        "inheritance": { "$ref": "#/$defs/InheritanceType" },
+        "isSexLinked": {
+          "type": "boolean",
+          "description": "True for sex-linked loci (e.g. Banana / Coral Glow). The engine abandons independent assortment for these."
+        },
+        "alleles": {
+          "type": "object",
+          "description": "Map of alleleId → AlleleDefinition. Must always include a \"normal\" allele.",
+          "additionalProperties": { "$ref": "#/$defs/AlleleDefinition" }
+        }
+      }
+    },
+
+    "ComboDefinition": {
+      "type": "object",
+      "required": ["marketName", "requiredGenotype"],
+      "additionalProperties": false,
+      "properties": {
+        "marketName": {
+          "type": "string",
+          "description": "The registered market name for this combination, e.g. \"Freeway\"."
+        },
+        "requiredGenotype": {
+          "type": "object",
+          "description": "Map of locusId → [alleleId, alleleId]. All listed locus conditions must match for the combo to trigger.",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
+    },
+
+    "LethalComboDefinition": {
+      "type": "object",
+      "required": ["triggerGenotype"],
+      "additionalProperties": false,
+      "properties": {
+        "triggerGenotype": {
+          "type": "object",
+          "description": "Map of locusId → [alleleId, alleleId]. All listed locus conditions must match for lethality to be flagged.",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
+    }
+  }
+}
