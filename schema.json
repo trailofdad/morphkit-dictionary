@@ -69,6 +69,24 @@
           "type": "array",
           "description": "Congenital or neurological defect labels associated with this allele (even in the heterozygous state).",
           "items": { "type": "string" }
+        },
+        "aliases": {
+          "type": "array",
+          "description": "Alternative names or abbreviations used in the community, e.g. [\"BP\", \"Blk Past\"].",
+          "items": { "type": "string" }
+        },
+        "shortNames": {
+          "type": "array",
+          "description": "Very short labels for tub tags or printing shortcuts, e.g. [\"Past\"].",
+          "items": { "type": "string" }
+        },
+        "indistinctFrom": {
+          "type": "array",
+          "description": "IDs of other alleles at THIS SAME locus that are visually indistinguishable from this one in the single-gene state.",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          }
         }
       }
     },
@@ -108,6 +126,16 @@
         "marketName": {
           "type": "string",
           "description": "The registered market name for this combination, e.g. \"Freeway\"."
+        },
+        "aliases": {
+          "type": "array",
+          "description": "Alternative names for this combo used in the community.",
+          "items": { "type": "string" }
+        },
+        "shortNames": {
+          "type": "array",
+          "description": "Very short labels for tub tags or printing shortcuts.",
+          "items": { "type": "string" }
         },
         "requiredGenotype": {
           "type": "object",
