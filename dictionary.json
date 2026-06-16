@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "lastUpdated": "2026-06-06T00:00:00Z",
+  "version": "2.1.0",
+  "lastUpdated": "2026-06-16T22:11:31Z",
   "loci": {
     "pied_locus": {
       "id": "pied_locus",
@@ -239,7 +239,31 @@
         },
         "black_pastel": {
           "id": "black_pastel",
-          "name": "Black Pastel"
+          "name": "Black Pastel",
+          "aliases": [
+            "Barnhart Black Pastel"
+          ]
+        },
+        "het_red_axanthic": {
+          "id": "het_red_axanthic",
+          "name": "Het Red Axanthic",
+          "aliases": [
+            "Green Pastel",
+            "Lace Black Back",
+            "Lori"
+          ]
+        },
+        "huffman": {
+          "id": "huffman",
+          "name": "Huffman"
+        },
+        "jolt": {
+          "id": "jolt",
+          "name": "Jolt"
+        },
+        "razor": {
+          "id": "razor",
+          "name": "Razor"
         }
       }
     },
@@ -3178,6 +3202,9 @@
         "ultramel": {
           "id": "ultramel",
           "name": "Ultramel",
+          "aliases": [
+            "Crider"
+          ],
           "shortNames": [
             "Ultra"
           ]
@@ -5314,7 +5341,10 @@
       }
     },
     {
-      "marketName": "Superstripe",
+      "marketName": "Super Stripe",
+      "aliases": [
+        "Superstripe"
+      ],
       "requiredGenotype": {
         "yellowbelly_complex": [
           "specter",
