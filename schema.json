@@ -43,6 +43,12 @@
       "items": { "$ref": "#/$defs/DefectComboDefinition" }
     },
 
+    "polygenicGroups": {
+      "type": "array",
+      "description": "Diagnostic-mode polygenic gates (e.g. Desert Ghost = dg_a/dg_b/dg_c). Used only when calculationMode is 'diagnostic'; the group is visual solely when its causalLocus is homozygous-mutant.",
+      "items": { "$ref": "#/$defs/PolygenicGroup" }
+    },
+
     "polygenicTags": {
       "type": "array",
       "description": "Valid polygenic trait labels (e.g. Jungle, Black Back). Free-form; the engine does not validate these against loci.",
@@ -198,6 +204,33 @@
           "type": "array",
           "description": "Congenital defect labels to flag, e.g. [\"Bug Eyes\"].",
           "items": { "type": "string" }
+        }
+      }
+    },
+
+    "PolygenicGroup": {
+      "type": "object",
+      "required": ["name", "loci", "causalLocus", "visualLabel"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Group label, e.g. \"Desert Ghost\"."
+        },
+        "loci": {
+          "type": "array",
+          "description": "The diagnostic causal loci that make up the group, e.g. [\"dg_a\", \"dg_b\", \"dg_c\"].",
+          "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "minItems": 1
+        },
+        "causalLocus": {
+          "type": "string",
+          "description": "The locus that gates the visual: the group is visual only when this locus is homozygous-mutant. Must appear in loci.",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "visualLabel": {
+          "type": "string",
+          "description": "Phenotype emitted when the gate opens, e.g. \"Visual Desert Ghost\"."
         }
       }
     }

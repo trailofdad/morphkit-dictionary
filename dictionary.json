@@ -1,5 +1,5 @@
 {
-  "version": "3.2.0",
+  "version": "3.3.0",
   "lastUpdated": "2026-06-19T00:00:00Z",
   "loci": {
     "pied_locus": {
@@ -3396,6 +3396,54 @@
           ]
         }
       }
+    },
+    "dg_a": {
+      "id": "dg_a",
+      "name": "Desert Ghost A (diagnostic)",
+      "inheritance": "polygenic",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dga": {
+          "id": "dga",
+          "name": "Desert Ghost A"
+        }
+      }
+    },
+    "dg_b": {
+      "id": "dg_b",
+      "name": "Desert Ghost B (diagnostic)",
+      "inheritance": "polygenic",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dgb": {
+          "id": "dgb",
+          "name": "Desert Ghost B"
+        }
+      }
+    },
+    "dg_c": {
+      "id": "dg_c",
+      "name": "Desert Ghost C (diagnostic)",
+      "inheritance": "polygenic",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dgc": {
+          "id": "dgc",
+          "name": "Desert Ghost C"
+        }
+      }
     }
   },
   "combos": [
@@ -5578,6 +5626,18 @@
         "Spinal Kinking",
         "Reduced Fertility"
       ]
+    }
+  ],
+  "polygenicGroups": [
+    {
+      "name": "Desert Ghost",
+      "loci": [
+        "dg_a",
+        "dg_b",
+        "dg_c"
+      ],
+      "causalLocus": "dg_c",
+      "visualLabel": "Visual Desert Ghost"
     }
   ]
 }
