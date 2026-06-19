@@ -37,6 +37,12 @@
       "items": { "$ref": "#/$defs/LethalComboDefinition" }
     },
 
+    "defectCombos": {
+      "type": "array",
+      "description": "Combination-triggered congenital (non-lethal) defects, e.g. Bug Eyes or Duckbilling. The engine adds the labels to congenitalWarnings for any matching outcome.",
+      "items": { "$ref": "#/$defs/DefectComboDefinition" }
+    },
+
     "polygenicTags": {
       "type": "array",
       "description": "Valid polygenic trait labels (e.g. Jungle, Black Back). Free-form; the engine does not validate these against loci.",
@@ -68,6 +74,11 @@
         "defects": {
           "type": "array",
           "description": "Congenital or neurological defect labels associated with this allele (even in the heterozygous state).",
+          "items": { "type": "string" }
+        },
+        "superDefects": {
+          "type": "array",
+          "description": "Defect labels that fire only in the homozygous (super) state, e.g. Super Sable wobble.",
           "items": { "type": "string" }
         },
         "aliases": {
@@ -164,6 +175,29 @@
             "minItems": 2,
             "maxItems": 2
           }
+        }
+      }
+    },
+
+    "DefectComboDefinition": {
+      "type": "object",
+      "required": ["triggerGenotype", "defects"],
+      "additionalProperties": false,
+      "properties": {
+        "triggerGenotype": {
+          "type": "object",
+          "description": "Map of locusId → [alleleId, alleleId]. All listed conditions must match for the defect to be flagged.",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "defects": {
+          "type": "array",
+          "description": "Congenital defect labels to flag, e.g. [\"Bug Eyes\"].",
+          "items": { "type": "string" }
         }
       }
     }

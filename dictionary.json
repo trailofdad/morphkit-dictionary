@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "lastUpdated": "2026-06-19T00:00:00Z",
   "loci": {
     "pied_locus": {
@@ -127,6 +127,9 @@
           "name": "Champagne",
           "shortNames": [
             "Champ"
+          ],
+          "defects": [
+            "Neurological Wobble"
           ]
         },
         "chocolate": {
@@ -164,6 +167,9 @@
           ],
           "indistinctFrom": [
             "woma"
+          ],
+          "defects": [
+            "Neurological Wobble"
           ]
         },
         "sable": {
@@ -171,6 +177,9 @@
           "name": "Sable",
           "shortNames": [
             "Sable"
+          ],
+          "superDefects": [
+            "Neurological Wobble"
           ]
         },
         "spotnose": {
@@ -183,6 +192,9 @@
           "shortNames": [
             "SN",
             "PBall"
+          ],
+          "superDefects": [
+            "Neurological Wobble"
           ]
         },
         "woma": {
@@ -193,6 +205,9 @@
           ],
           "indistinctFrom": [
             "hidden_gene_woma"
+          ],
+          "defects": [
+            "Neurological Wobble"
           ]
         },
         "wookie": {
@@ -228,6 +243,27 @@
         "enchi": {
           "id": "enchi",
           "name": "Enchi"
+        },
+        "het_red_axanthic": {
+          "id": "het_red_axanthic",
+          "name": "Het Red Axanthic",
+          "aliases": [
+            "Green Pastel",
+            "Lace Black Back",
+            "Lori"
+          ]
+        },
+        "huffman": {
+          "id": "huffman",
+          "name": "Huffman"
+        },
+        "jolt": {
+          "id": "jolt",
+          "name": "Jolt"
+        },
+        "razor": {
+          "id": "razor",
+          "name": "Razor"
         }
       }
     },
@@ -3079,6 +3115,9 @@
           "name": "Ultramel",
           "shortNames": [
             "Ultra"
+          ],
+          "aliases": [
+            "Crider"
           ]
         }
       }
@@ -5414,6 +5453,15 @@
           "black_pastel"
         ]
       }
+    },
+    {
+      "marketName": "Super Stripe",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "specter",
+          "yellowbelly"
+        ]
+      }
     }
   ],
   "lethalCombos": [
@@ -5422,6 +5470,46 @@
         "spider_complex": [
           "spider",
           "spider"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "champagne",
+          "champagne"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "hidden_gene_woma",
+          "hidden_gene_woma"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "sable",
+          "spider"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "champagne",
+          "spider"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "champagne",
+          "hidden_gene_woma"
         ]
       }
     }
@@ -5433,5 +5521,63 @@
     "AHI",
     "Nova",
     "Red Gene"
+  ],
+  "defectCombos": [
+    {
+      "triggerGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ]
+      },
+      "defects": [
+        "Craniofacial Flattening (Duckbilling)"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "black_pastel"
+        ]
+      },
+      "defects": [
+        "Craniofacial Flattening (Duckbilling)"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "black_pastel"
+        ]
+      },
+      "defects": [
+        "Craniofacial Flattening (Duckbilling)"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "lesser"
+        ]
+      },
+      "defects": [
+        "Bug Eyes"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "caramel_albino_locus": [
+          "caramel_albino",
+          "caramel_albino"
+        ]
+      },
+      "defects": [
+        "Spinal Kinking",
+        "Reduced Fertility"
+      ]
+    }
   ]
 }
