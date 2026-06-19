@@ -1,5 +1,5 @@
 {
-  "version": "3.3.0",
+  "version": "3.4.0",
   "lastUpdated": "2026-06-19T00:00:00Z",
   "loci": {
     "pied_locus": {
@@ -5638,6 +5638,39 @@
       ],
       "causalLocus": "dg_c",
       "visualLabel": "Visual Desert Ghost"
+    }
+  ],
+  "epistasisRules": [
+    {
+      "name": "Blue-Eyed Leucistic",
+      "conditions": [
+        {
+          "locusId": "blue_eyed_lucy_complex",
+          "state": "homozygous"
+        }
+      ],
+      "suppressAll": true,
+      "label": "Blue-Eyed Leucistic"
+    },
+    {
+      "name": "Black Head Spider",
+      "conditions": [
+        {
+          "locusId": "black_head_complex",
+          "state": "present",
+          "allele": "black_head"
+        },
+        {
+          "locusId": "spider_complex",
+          "state": "present",
+          "allele": "spider"
+        }
+      ],
+      "suppressLoci": [
+        "black_head_complex",
+        "spider_complex"
+      ],
+      "label": "Black Head Spider (visually near-normal)"
     }
   ]
 }

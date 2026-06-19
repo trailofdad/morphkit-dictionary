@@ -43,6 +43,12 @@
       "items": { "$ref": "#/$defs/DefectComboDefinition" }
     },
 
+    "epistasisRules": {
+      "type": "array",
+      "description": "Epistatic visual-masking overrides (e.g. BEL solid-white, Black Head Spider near-normal). When a rule's conditions all hold, the named visuals are suppressed and the rule's label is emitted instead. Only phenotypeNames is affected — genotype and congenital warnings are untouched.",
+      "items": { "$ref": "#/$defs/EpistasisRule" }
+    },
+
     "polygenicGroups": {
       "type": "array",
       "description": "Diagnostic-mode polygenic gates (e.g. Desert Ghost = dg_a/dg_b/dg_c). Used only when calculationMode is 'diagnostic'; the group is visual solely when its causalLocus is homozygous-mutant.",
@@ -204,6 +210,60 @@
           "type": "array",
           "description": "Congenital defect labels to flag, e.g. [\"Bug Eyes\"].",
           "items": { "type": "string" }
+        }
+      }
+    },
+
+    "EpistasisLocusCondition": {
+      "type": "object",
+      "required": ["locusId", "state"],
+      "additionalProperties": false,
+      "properties": {
+        "locusId": {
+          "type": "string",
+          "description": "The locus this condition tests.",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
+        "state": {
+          "type": "string",
+          "description": "'present' matches ≥1 copy of `allele` (or any mutant if omitted); 'homozygous' matches when both alleles are non-normal (super/compound).",
+          "enum": ["present", "homozygous"]
+        },
+        "allele": {
+          "type": "string",
+          "description": "Optional specific allele the condition is restricted to.",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        }
+      }
+    },
+
+    "EpistasisRule": {
+      "type": "object",
+      "required": ["name", "conditions", "label"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Rule label, e.g. \"Black Head Spider\"."
+        },
+        "conditions": {
+          "type": "array",
+          "description": "All conditions must hold for the rule to fire.",
+          "items": { "$ref": "#/$defs/EpistasisLocusCondition" },
+          "minItems": 1
+        },
+        "suppressLoci": {
+          "type": "array",
+          "description": "Loci whose visual names are removed when the rule fires. Defaults to the condition loci.",
+          "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+        },
+        "suppressAll": {
+          "type": "boolean",
+          "description": "When true, removes ALL visual names (a solid-white BEL masks everything)."
+        },
+        "label": {
+          "type": "string",
+          "description": "The phenotype emitted in place of the masked traits."
         }
       }
     },
