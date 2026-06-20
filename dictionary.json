@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "lastUpdated": "2026-06-06T00:00:00Z",
+  "version": "4.0.0",
+  "lastUpdated": "2026-06-19T00:00:00Z",
   "loci": {
     "pied_locus": {
       "id": "pied_locus",
@@ -82,22 +82,6 @@
         }
       }
     },
-    "enchi_locus": {
-      "id": "enchi_locus",
-      "name": "Enchi",
-      "inheritance": "incomplete_dominant",
-      "isSexLinked": false,
-      "alleles": {
-        "normal": {
-          "id": "normal",
-          "name": "Normal"
-        },
-        "enchi": {
-          "id": "enchi",
-          "name": "Enchi"
-        }
-      }
-    },
     "ghi_locus": {
       "id": "ghi_locus",
       "name": "GHI",
@@ -143,6 +127,9 @@
           "name": "Champagne",
           "shortNames": [
             "Champ"
+          ],
+          "defects": [
+            "Neurological Wobble"
           ]
         },
         "chocolate": {
@@ -180,6 +167,9 @@
           ],
           "indistinctFrom": [
             "woma"
+          ],
+          "defects": [
+            "Neurological Wobble"
           ]
         },
         "sable": {
@@ -187,6 +177,9 @@
           "name": "Sable",
           "shortNames": [
             "Sable"
+          ],
+          "superDefects": [
+            "Neurological Wobble"
           ]
         },
         "spotnose": {
@@ -199,6 +192,9 @@
           "shortNames": [
             "SN",
             "PBall"
+          ],
+          "superDefects": [
+            "Neurological Wobble"
           ]
         },
         "woma": {
@@ -209,6 +205,9 @@
           ],
           "indistinctFrom": [
             "hidden_gene_woma"
+          ],
+          "defects": [
+            "Neurological Wobble"
           ]
         },
         "wookie": {
@@ -240,6 +239,31 @@
         "black_pastel": {
           "id": "black_pastel",
           "name": "Black Pastel"
+        },
+        "enchi": {
+          "id": "enchi",
+          "name": "Enchi"
+        },
+        "het_red_axanthic": {
+          "id": "het_red_axanthic",
+          "name": "Het Red Axanthic",
+          "aliases": [
+            "Green Pastel",
+            "Lace Black Back",
+            "Lori"
+          ]
+        },
+        "huffman": {
+          "id": "huffman",
+          "name": "Huffman"
+        },
+        "jolt": {
+          "id": "jolt",
+          "name": "Jolt"
+        },
+        "razor": {
+          "id": "razor",
+          "name": "Razor"
         }
       }
     },
@@ -259,6 +283,9 @@
           "indistinctFrom": [
             "asphalt",
             "gravel"
+          ],
+          "aliases": [
+            "Flare"
           ]
         },
         "asphalt": {
@@ -324,7 +351,10 @@
         },
         "banana": {
           "id": "banana",
-          "name": "Banana / Coral Glow"
+          "name": "Banana / Coral Glow",
+          "aliases": [
+            "Coral Glow"
+          ]
         }
       }
     },
@@ -343,6 +373,16 @@
           "name": "Acid",
           "shortNames": [
             "Acid"
+          ],
+          "aliases": [
+            "Static"
+          ]
+        },
+        "confusion": {
+          "id": "confusion",
+          "name": "Confusion",
+          "shortNames": [
+            "Conf"
           ]
         }
       }
@@ -362,25 +402,6 @@
           "name": "Ajax",
           "shortNames": [
             "Ajax"
-          ]
-        }
-      }
-    },
-    "amur_locus": {
-      "id": "amur_locus",
-      "name": "Amur",
-      "inheritance": "recessive",
-      "isSexLinked": false,
-      "alleles": {
-        "normal": {
-          "id": "normal",
-          "name": "Normal"
-        },
-        "amur": {
-          "id": "amur",
-          "name": "Amur",
-          "shortNames": [
-            "Amur"
           ]
         }
       }
@@ -531,16 +552,6 @@
             "Bamb"
           ]
         },
-        "butter": {
-          "id": "butter",
-          "name": "Butter",
-          "shortNames": [
-            "Butt"
-          ],
-          "indistinctFrom": [
-            "lesser"
-          ]
-        },
         "het_daddy": {
           "id": "het_daddy",
           "name": "Het Daddy",
@@ -561,8 +572,8 @@
           "shortNames": [
             "Less"
           ],
-          "indistinctFrom": [
-            "butter"
+          "aliases": [
+            "Butter"
           ]
         },
         "mojave": {
@@ -574,16 +585,6 @@
           ],
           "shortNames": [
             "Mojo"
-          ]
-        },
-        "mystic": {
-          "id": "mystic",
-          "name": "Mystic",
-          "shortNames": [
-            "Myst"
-          ],
-          "indistinctFrom": [
-            "phantom"
           ]
         },
         "noco_special": {
@@ -603,8 +604,8 @@
           "shortNames": [
             "Phant"
           ],
-          "indistinctFrom": [
-            "mystic"
+          "aliases": [
+            "Mystic"
           ]
         },
         "russo": {
@@ -615,6 +616,13 @@
           ],
           "indistinctFrom": [
             "baker_special"
+          ]
+        },
+        "mocha": {
+          "id": "mocha",
+          "name": "Mocha",
+          "shortNames": [
+            "Mocha"
           ]
         }
       }
@@ -1141,25 +1149,6 @@
         }
       }
     },
-    "confusion_locus": {
-      "id": "confusion_locus",
-      "name": "Confusion",
-      "inheritance": "incomplete_dominant",
-      "isSexLinked": false,
-      "alleles": {
-        "normal": {
-          "id": "normal",
-          "name": "Normal"
-        },
-        "confusion": {
-          "id": "confusion",
-          "name": "Confusion",
-          "shortNames": [
-            "Conf"
-          ]
-        }
-      }
-    },
     "congo_locus": {
       "id": "congo_locus",
       "name": "Congo",
@@ -1256,9 +1245,8 @@
             "vanilla",
             "sulfur",
             "fire",
-            "lucifer",
-            "flame",
-            "lemonback"
+            "lemonback",
+            "flame"
           ]
         },
         "fire": {
@@ -1271,9 +1259,8 @@
             "vanilla",
             "disco",
             "sulfur",
-            "lucifer",
-            "flame",
-            "lemonback"
+            "lemonback",
+            "flame"
           ]
         },
         "flame": {
@@ -1285,10 +1272,9 @@
           "indistinctFrom": [
             "vanilla",
             "fire",
-            "lucifer",
+            "lemonback",
             "sulfur",
-            "disco",
-            "lemonback"
+            "disco"
           ]
         },
         "lemonback": {
@@ -1302,23 +1288,13 @@
             "vanilla",
             "disco",
             "sulfur",
-            "flame",
-            "lucifer"
-          ]
-        },
-        "lucifer": {
-          "id": "lucifer",
-          "name": "Lucifer",
-          "shortNames": [
-            "Lucifer"
+            "flame"
           ],
-          "indistinctFrom": [
-            "fire",
-            "vanilla",
-            "disco",
-            "sulfur",
-            "flame",
-            "lemonback"
+          "aliases": [
+            "Lucifer",
+            "Mota",
+            "Sauce",
+            "Brite"
           ]
         },
         "sulfur": {
@@ -1331,9 +1307,11 @@
             "fire",
             "vanilla",
             "disco",
-            "lucifer",
-            "flame",
-            "lemonback"
+            "lemonback",
+            "flame"
+          ],
+          "aliases": [
+            "Ember"
           ]
         },
         "vanilla": {
@@ -1346,9 +1324,11 @@
             "disco",
             "fire",
             "sulfur",
-            "lucifer",
             "lemonback",
             "flame"
+          ],
+          "aliases": [
+            "Thunder"
           ]
         }
       }
@@ -1587,25 +1567,6 @@
           "name": "GeneX",
           "shortNames": [
             "X"
-          ]
-        }
-      }
-    },
-    "gizmo_locus": {
-      "id": "gizmo_locus",
-      "name": "Gizmo",
-      "inheritance": "recessive",
-      "isSexLinked": false,
-      "alleles": {
-        "normal": {
-          "id": "normal",
-          "name": "Normal"
-        },
-        "gizmo": {
-          "id": "gizmo",
-          "name": "Gizmo",
-          "shortNames": [
-            "Gizmo"
           ]
         }
       }
@@ -2207,25 +2168,6 @@
           "name": "Migraine",
           "shortNames": [
             "Migraine"
-          ]
-        }
-      }
-    },
-    "mocha_locus": {
-      "id": "mocha_locus",
-      "name": "Mocha",
-      "inheritance": "incomplete_dominant",
-      "isSexLinked": false,
-      "alleles": {
-        "normal": {
-          "id": "normal",
-          "name": "Normal"
-        },
-        "mocha": {
-          "id": "mocha",
-          "name": "Mocha",
-          "shortNames": [
-            "Mocha"
           ]
         }
       }
@@ -2934,25 +2876,6 @@
         }
       }
     },
-    "static_locus": {
-      "id": "static_locus",
-      "name": "Static",
-      "inheritance": "incomplete_dominant",
-      "isSexLinked": false,
-      "alleles": {
-        "normal": {
-          "id": "normal",
-          "name": "Normal"
-        },
-        "static": {
-          "id": "static",
-          "name": "Static",
-          "shortNames": [
-            "Static"
-          ]
-        }
-      }
-    },
     "stranger_locus": {
       "id": "stranger_locus",
       "name": "Stranger",
@@ -3180,6 +3103,9 @@
           "name": "Ultramel",
           "shortNames": [
             "Ultra"
+          ],
+          "aliases": [
+            "Crider"
           ]
         }
       }
@@ -3402,6 +3328,10 @@
           "name": "Cryptic",
           "shortNames": [
             "Cryp"
+          ],
+          "aliases": [
+            "Amur",
+            "Gizmo"
           ]
         }
       }
@@ -3425,13 +3355,9 @@
           "name": "Candy",
           "shortNames": [
             "Candy"
-          ]
-        },
-        "toffee": {
-          "id": "toffee",
-          "name": "Toffee",
-          "shortNames": [
-            "Toff"
+          ],
+          "aliases": [
+            "Toffee"
           ]
         }
       }
@@ -3458,6 +3384,54 @@
           ]
         }
       }
+    },
+    "dg_a": {
+      "id": "dg_a",
+      "name": "Desert Ghost A (diagnostic)",
+      "inheritance": "polygenic",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dga": {
+          "id": "dga",
+          "name": "Desert Ghost A"
+        }
+      }
+    },
+    "dg_b": {
+      "id": "dg_b",
+      "name": "Desert Ghost B (diagnostic)",
+      "inheritance": "polygenic",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dgb": {
+          "id": "dgb",
+          "name": "Desert Ghost B"
+        }
+      }
+    },
+    "dg_c": {
+      "id": "dg_c",
+      "name": "Desert Ghost C (diagnostic)",
+      "inheritance": "polygenic",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dgc": {
+          "id": "dgc",
+          "name": "Desert Ghost C"
+        }
+      }
     }
   },
   "combos": [
@@ -3473,7 +3447,7 @@
     {
       "marketName": "Super Enchi",
       "requiredGenotype": {
-        "enchi_locus": [
+        "cinnamon_complex": [
           "enchi",
           "enchi"
         ]
@@ -3549,7 +3523,10 @@
           "acid",
           "acid"
         ]
-      }
+      },
+      "aliases": [
+        "Super Static"
+      ]
     },
     {
       "marketName": "Super Ajax",
@@ -3726,10 +3703,13 @@
       "marketName": "Super Butter",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "butter",
-          "butter"
+          "lesser",
+          "lesser"
         ]
-      }
+      },
+      "aliases": [
+        "Super Lesser"
+      ]
     },
     {
       "marketName": "Super Calico",
@@ -3842,7 +3822,7 @@
     {
       "marketName": "Super Confusion",
       "requiredGenotype": {
-        "confusion_locus": [
+        "acid_locus": [
           "confusion",
           "confusion"
         ]
@@ -4206,7 +4186,10 @@
           "lemonback",
           "lemonback"
         ]
-      }
+      },
+      "aliases": [
+        "Super Lucifer"
+      ]
     },
     {
       "marketName": "Super Leopard",
@@ -4214,24 +4197,6 @@
         "leopard_locus": [
           "leopard",
           "leopard"
-        ]
-      }
-    },
-    {
-      "marketName": "Super Lesser",
-      "requiredGenotype": {
-        "blue_eyed_lucy_complex": [
-          "lesser",
-          "lesser"
-        ]
-      }
-    },
-    {
-      "marketName": "Super Lucifer",
-      "requiredGenotype": {
-        "fire_complex": [
-          "lucifer",
-          "lucifer"
         ]
       }
     },
@@ -4292,7 +4257,7 @@
     {
       "marketName": "Super Mocha",
       "requiredGenotype": {
-        "mocha_locus": [
+        "blue_eyed_lucy_complex": [
           "mocha",
           "mocha"
         ]
@@ -4320,10 +4285,13 @@
       "marketName": "Super Mystic",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "mystic",
-          "mystic"
+          "phantom",
+          "phantom"
         ]
-      }
+      },
+      "aliases": [
+        "Super Phantom"
+      ]
     },
     {
       "marketName": "Super Nanny",
@@ -4407,15 +4375,6 @@
       }
     },
     {
-      "marketName": "Super Phantom",
-      "requiredGenotype": {
-        "blue_eyed_lucy_complex": [
-          "phantom",
-          "phantom"
-        ]
-      }
-    },
-    {
       "marketName": "Super Pinstripe",
       "requiredGenotype": {
         "pinstripe_locus": [
@@ -4485,7 +4444,10 @@
           "russo",
           "russo"
         ]
-      }
+      },
+      "aliases": [
+        "White Diamond"
+      ]
     },
     {
       "marketName": "Super Sable",
@@ -4619,15 +4581,6 @@
         "spider_complex": [
           "spotnose",
           "spotnose"
-        ]
-      }
-    },
-    {
-      "marketName": "Super Static",
-      "requiredGenotype": {
-        "static_locus": [
-          "static",
-          "static"
         ]
       }
     },
@@ -4828,20 +4781,23 @@
       "marketName": "Butterbee",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "butter",
+          "lesser",
           "normal"
         ],
         "spider_complex": [
           "spider",
           "normal"
         ]
-      }
+      },
+      "aliases": [
+        "Lesserbee"
+      ]
     },
     {
       "marketName": "Butterfly",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "butter",
+          "lesser",
           "normal"
         ],
         "pastel_locus": [
@@ -5101,19 +5057,6 @@
       }
     },
     {
-      "marketName": "Lesserbee",
-      "requiredGenotype": {
-        "blue_eyed_lucy_complex": [
-          "lesser",
-          "normal"
-        ],
-        "spider_complex": [
-          "spider",
-          "normal"
-        ]
-      }
-    },
-    {
       "marketName": "Lightning Pied",
       "requiredGenotype": {
         "mj_axanthic_complex": [
@@ -5143,7 +5086,7 @@
       "marketName": "Mystic Crystal",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "mystic",
+          "phantom",
           "baker_special"
         ]
       }
@@ -5152,10 +5095,13 @@
       "marketName": "Mystic Potion",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "mystic",
+          "phantom",
           "mojave"
         ]
-      }
+      },
+      "aliases": [
+        "Purple Passion"
+      ]
     },
     {
       "marketName": "Opal Diamond",
@@ -5211,15 +5157,6 @@
       }
     },
     {
-      "marketName": "Purple Passion",
-      "requiredGenotype": {
-        "blue_eyed_lucy_complex": [
-          "phantom",
-          "mojave"
-        ]
-      }
-    },
-    {
       "marketName": "Queenbee",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
@@ -5240,7 +5177,7 @@
       "marketName": "Queenspin",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
-          "butter",
+          "lesser",
           "normal"
         ],
         "spider_complex": [
@@ -5354,15 +5291,6 @@
         "fire_complex": [
           "fire",
           "vanilla"
-        ]
-      }
-    },
-    {
-      "marketName": "White Diamond",
-      "requiredGenotype": {
-        "blue_eyed_lucy_complex": [
-          "russo",
-          "russo"
         ]
       }
     },
@@ -5531,16 +5459,10 @@
           "albino",
           "candy"
         ]
-      }
-    },
-    {
-      "marketName": "Toffino",
-      "requiredGenotype": {
-        "albino_complex": [
-          "albino",
-          "toffee"
-        ]
-      }
+      },
+      "aliases": [
+        "Toffino"
+      ]
     },
     {
       "marketName": "Snow",
@@ -5567,6 +5489,15 @@
           "black_pastel"
         ]
       }
+    },
+    {
+      "marketName": "Super Stripe",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "specter",
+          "yellowbelly"
+        ]
+      }
     }
   ],
   "lethalCombos": [
@@ -5575,6 +5506,46 @@
         "spider_complex": [
           "spider",
           "spider"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "champagne",
+          "champagne"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "hidden_gene_woma",
+          "hidden_gene_woma"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "sable",
+          "spider"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "champagne",
+          "spider"
+        ]
+      }
+    },
+    {
+      "triggerGenotype": {
+        "spider_complex": [
+          "champagne",
+          "hidden_gene_woma"
         ]
       }
     }
@@ -5586,5 +5557,108 @@
     "AHI",
     "Nova",
     "Red Gene"
+  ],
+  "defectCombos": [
+    {
+      "triggerGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ]
+      },
+      "defects": [
+        "Craniofacial Flattening (Duckbilling)"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "black_pastel"
+        ]
+      },
+      "defects": [
+        "Craniofacial Flattening (Duckbilling)"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "black_pastel"
+        ]
+      },
+      "defects": [
+        "Craniofacial Flattening (Duckbilling)"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "lesser"
+        ]
+      },
+      "defects": [
+        "Bug Eyes"
+      ]
+    },
+    {
+      "triggerGenotype": {
+        "caramel_albino_locus": [
+          "caramel_albino",
+          "caramel_albino"
+        ]
+      },
+      "defects": [
+        "Spinal Kinking",
+        "Reduced Fertility"
+      ]
+    }
+  ],
+  "polygenicGroups": [
+    {
+      "name": "Desert Ghost",
+      "loci": [
+        "dg_a",
+        "dg_b",
+        "dg_c"
+      ],
+      "causalLocus": "dg_c",
+      "visualLabel": "Visual Desert Ghost"
+    }
+  ],
+  "epistasisRules": [
+    {
+      "name": "Blue-Eyed Leucistic",
+      "conditions": [
+        {
+          "locusId": "blue_eyed_lucy_complex",
+          "state": "homozygous"
+        }
+      ],
+      "suppressAll": true,
+      "label": "Blue-Eyed Leucistic"
+    },
+    {
+      "name": "Black Head Spider",
+      "conditions": [
+        {
+          "locusId": "black_head_complex",
+          "state": "present",
+          "allele": "black_head"
+        },
+        {
+          "locusId": "spider_complex",
+          "state": "present",
+          "allele": "spider"
+        }
+      ],
+      "suppressLoci": [
+        "black_head_complex",
+        "spider_complex"
+      ],
+      "label": "Black Head Spider (visually near-normal)"
+    }
   ]
 }
