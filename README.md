@@ -189,3 +189,9 @@ A flat list of valid polygenic trait labels (e.g. `"Jungle"`, `"Black Back"`). T
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full process.
+
+---
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
