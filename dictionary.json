@@ -1,6 +1,6 @@
 {
-  "version": "4.0.0",
-  "lastUpdated": "2026-06-19T00:00:00Z",
+  "version": "4.1.0",
+  "lastUpdated": "2026-10-22T00:00:00Z",
   "loci": {
     "pied_locus": {
       "id": "pied_locus",
@@ -23,6 +23,7 @@
       "name": "Axanthic (VPI Line)",
       "inheritance": "recessive",
       "isSexLinked": false,
+      "supersededBy": "vpi_axanthic_locus",
       "alleles": {
         "normal": {
           "id": "normal",
@@ -55,6 +56,7 @@
       "name": "Genetic Stripe",
       "inheritance": "recessive",
       "isSexLinked": false,
+      "supersededBy": "g_stripe_locus",
       "alleles": {
         "normal": {
           "id": "normal",
@@ -285,7 +287,8 @@
             "gravel"
           ],
           "aliases": [
-            "Flare"
+            "Flare",
+            "Yellow Belly"
           ]
         },
         "asphalt": {
@@ -734,7 +737,9 @@
           "aliases": [
             "SK Axanthic",
             "TSK Axanthic",
-            "Axanthic - SK"
+            "Axanthic - SK",
+            "Axanthic (TSK)",
+            "Axanthic (SK)"
           ],
           "shortNames": [
             "SKAx"
@@ -1507,7 +1512,8 @@
           "aliases": [
             "GCR Axanthic",
             "GCR Ax",
-            "Axanthic - GCR"
+            "Axanthic - GCR",
+            "Axanthic (GCR)"
           ],
           "shortNames": [
             "GCRAx"
@@ -1522,7 +1528,8 @@
           "aliases": [
             "MJ Axanthic",
             "MJ Ax",
-            "Axanthic - MJ"
+            "Axanthic - MJ",
+            "Axanthic (MJ)"
           ],
           "shortNames": [
             "MJAx"
@@ -1837,7 +1844,10 @@
           "aliases": [
             "Joliff Axanthic",
             "Joliff Ax",
-            "Axanthic - Joliff"
+            "Axanthic - Joliff",
+            "Axanthic (Joliff)",
+            "Axanthic (Jolliff)",
+            "Jolliff Axanthic"
           ],
           "shortNames": [
             "JolAx"
@@ -2618,7 +2628,8 @@
           "name": "Redstripe",
           "aliases": [
             "Redstripe",
-            "RS"
+            "RS",
+            "Red Stripe"
           ],
           "shortNames": [
             "RS"
@@ -3145,7 +3156,10 @@
           "aliases": [
             "VPI Axanthic",
             "VPI Ax",
-            "Axanthic - VPI"
+            "Axanthic - VPI",
+            "Axanthic (VPI)",
+            "Axanthic VPI",
+            "Axanthic (VPI Line)"
           ],
           "shortNames": [
             "VPIAx"

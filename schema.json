@@ -133,6 +133,11 @@
           "type": "boolean",
           "description": "True for sex-linked loci (e.g. Banana / Coral Glow). The engine abandons independent assortment for these."
         },
+        "supersededBy": {
+          "type": "string",
+          "description": "Marks a legacy duplicate of another locus. The locus stays valid (stored genotypes may reference its id), but name/alias lookups prefer the locus named here when both match.",
+          "pattern": "^[a-z][a-z0-9_]*$"
+        },
         "alleles": {
           "type": "object",
           "description": "Map of alleleId → AlleleDefinition. Must always include a \"normal\" allele.",
