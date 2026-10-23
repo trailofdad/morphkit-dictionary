@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "lastUpdated": "2026-10-22T00:00:00Z",
+  "lastUpdated": "2026-10-23T01:38:14Z",
   "loci": {
     "pied_locus": {
       "id": "pied_locus",
@@ -14,7 +14,11 @@
         },
         "pied": {
           "id": "pied",
-          "name": "Pied"
+          "name": "Pied",
+          "aliases": [
+            "Piebald",
+            "Pie Bald"
+          ]
         }
       }
     },
@@ -47,7 +51,11 @@
         },
         "lavender_albino": {
           "id": "lavender_albino",
-          "name": "Lavender Albino"
+          "name": "Lavender Albino",
+          "aliases": [
+            "Lavender",
+            "Lav Albino"
+          ]
         }
       }
     },
@@ -80,7 +88,11 @@
         },
         "pastel": {
           "id": "pastel",
-          "name": "Pastel"
+          "name": "Pastel",
+          "aliases": [
+            "Lemon Pastel",
+            "Citrus Pastel"
+          ]
         }
       }
     },
@@ -147,6 +159,9 @@
         "chocolate_garcia": {
           "id": "chocolate_garcia",
           "name": "Chocolate - Garcia",
+          "aliases": [
+            "Garcia"
+          ],
           "shortNames": [
             "Choc-Garc"
           ]
@@ -236,11 +251,17 @@
         },
         "cinnamon": {
           "id": "cinnamon",
-          "name": "Cinnamon"
+          "name": "Cinnamon",
+          "aliases": [
+            "Cinny"
+          ]
         },
         "black_pastel": {
           "id": "black_pastel",
-          "name": "Black Pastel"
+          "name": "Black Pastel",
+          "aliases": [
+            "Barnhart Black Pastel"
+          ]
         },
         "enchi": {
           "id": "enchi",
@@ -250,9 +271,7 @@
           "id": "het_red_axanthic",
           "name": "Het Red Axanthic",
           "aliases": [
-            "Green Pastel",
-            "Lace Black Back",
-            "Lori"
+            "Het Red"
           ]
         },
         "huffman": {
@@ -266,6 +285,21 @@
         "razor": {
           "id": "razor",
           "name": "Razor"
+        },
+        "lace_black_back": {
+          "id": "lace_black_back",
+          "name": "Lace Black Back",
+          "aliases": [
+            "Green Pastel",
+            "Exo-LBB"
+          ],
+          "shortNames": [
+            "LaceBB"
+          ]
+        },
+        "lori": {
+          "id": "lori",
+          "name": "Lori"
         }
       }
     },
@@ -294,6 +328,9 @@
         "asphalt": {
           "id": "asphalt",
           "name": "Asphalt",
+          "aliases": [
+            "RK Asphalt"
+          ],
           "indistinctFrom": [
             "yellowbelly",
             "gravel"
@@ -323,6 +360,18 @@
           "shortNames": [
             "Specter"
           ]
+        },
+        "orange_belly": {
+          "id": "orange_belly",
+          "name": "Orange Belly"
+        },
+        "goblin": {
+          "id": "goblin",
+          "name": "Goblin"
+        },
+        "bling_yellow_belly": {
+          "id": "bling_yellow_belly",
+          "name": "Bling Yellow Belly"
         }
       }
     },
@@ -356,8 +405,13 @@
           "id": "banana",
           "name": "Banana / Coral Glow",
           "aliases": [
-            "Coral Glow"
+            "Coral Glow",
+            "Cg"
           ]
+        },
+        "whitesmoke": {
+          "id": "whitesmoke",
+          "name": "Whitesmoke"
         }
       }
     },
@@ -540,6 +594,9 @@
         "baker_special": {
           "id": "baker_special",
           "name": "Baker Special",
+          "aliases": [
+            "Special"
+          ],
           "shortNames": [
             "Bkr Spec"
           ],
@@ -593,6 +650,9 @@
         "noco_special": {
           "id": "noco_special",
           "name": "NoCo Special",
+          "aliases": [
+            "Special (NoCo)"
+          ],
           "shortNames": [
             "NC Spec"
           ],
@@ -614,6 +674,11 @@
         "russo": {
           "id": "russo",
           "name": "Russo",
+          "aliases": [
+            "Het Russo",
+            "Het Russo Leucistic",
+            "Russo Het Leucistic"
+          ],
           "shortNames": [
             "Russo"
           ],
@@ -626,6 +691,13 @@
           "name": "Mocha",
           "shortNames": [
             "Mocha"
+          ]
+        },
+        "tcr_special": {
+          "id": "tcr_special",
+          "name": "TCR Special",
+          "aliases": [
+            "Special (TCR)"
           ]
         }
       }
@@ -926,7 +998,8 @@
           "id": "burgundy_albino",
           "name": "Burgundy Albino",
           "aliases": [
-            "Burgundy Albino"
+            "Burgundy Albino",
+            "Burgundy"
           ],
           "shortNames": [
             "BurgAlb"
@@ -1591,6 +1664,9 @@
         "goldblush": {
           "id": "goldblush",
           "name": "Goldblush",
+          "aliases": [
+            "Gold Blush"
+          ],
           "shortNames": [
             "GldBlsh"
           ]
@@ -1759,7 +1835,12 @@
           "id": "hypo",
           "name": "Hypo",
           "aliases": [
-            "Ghost"
+            "Ghost",
+            "Citrus Hypo",
+            "210 Hypo",
+            "Ghost (Vesper)",
+            "Hypomelanistic",
+            "Hollywood"
           ],
           "shortNames": [
             "Hypo"
@@ -1930,7 +2011,8 @@
           "id": "kalabash_reduction_gene",
           "name": "Kalabash Reduction Gene",
           "aliases": [
-            "KRG"
+            "KRG",
+            "Kalabash"
           ],
           "shortNames": [
             "KRG"
@@ -2001,6 +2083,7 @@
       "name": "Lace Black Back",
       "inheritance": "incomplete_dominant",
       "isSexLinked": false,
+      "supersededBy": "cinnamon_complex",
       "alleles": {
         "normal": {
           "id": "normal",
@@ -2154,7 +2237,9 @@
           "id": "scaleless_head",
           "name": "Scaleless Head",
           "aliases": [
-            "SH"
+            "SH",
+            "Het Scaleless",
+            "Scaleless Het"
           ],
           "shortNames": [
             "SH",
@@ -2373,7 +2458,8 @@
           "id": "orange_ghost",
           "name": "Orange Ghost",
           "aliases": [
-            "OG"
+            "OG",
+            "Orange Hypo"
           ],
           "shortNames": [
             "OG"
@@ -2650,6 +2736,9 @@
         "ringer_gene": {
           "id": "ringer_gene",
           "name": "Ringer Gene",
+          "aliases": [
+            "Ringer"
+          ],
           "shortNames": [
             "Ringer Gene"
           ]
@@ -2957,6 +3046,9 @@
         "sunset": {
           "id": "sunset",
           "name": "Sunset",
+          "aliases": [
+            "Sunset (TCR)"
+          ],
           "shortNames": [
             "SS"
           ]
@@ -2977,7 +3069,8 @@
           "id": "tiger",
           "name": "Tiger",
           "aliases": [
-            "Tiger"
+            "Tiger",
+            "Jolliff Tiger"
           ],
           "shortNames": [
             "Tiger"
@@ -3017,6 +3110,9 @@
         "tri_stripe": {
           "id": "tri_stripe",
           "name": "Tri-Stripe",
+          "aliases": [
+            "KMR Tri Stripe"
+          ],
           "shortNames": [
             "TS"
           ]
@@ -3112,11 +3208,12 @@
         "ultramel": {
           "id": "ultramel",
           "name": "Ultramel",
+          "aliases": [
+            "Crider",
+            "Ultramelanistic"
+          ],
           "shortNames": [
             "Ultra"
-          ],
-          "aliases": [
-            "Crider"
           ]
         }
       }
@@ -3259,6 +3356,9 @@
         "x_tremist": {
           "id": "x_tremist",
           "name": "X-Tremist",
+          "aliases": [
+            "Xremist"
+          ],
           "shortNames": [
             "XTremist",
             "SupXTremist"
@@ -3446,11 +3546,1509 @@
           "name": "Desert Ghost C"
         }
       }
+    },
+    "vesper_locus": {
+      "id": "vesper_locus",
+      "name": "Vesper",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "vesper": {
+          "id": "vesper",
+          "name": "Vesper"
+        }
+      }
+    },
+    "patternless_x_locus": {
+      "id": "patternless_x_locus",
+      "name": "Patternless X",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "patternless_x": {
+          "id": "patternless_x",
+          "name": "Patternless X"
+        }
+      }
+    },
+    "srp_axanthic_locus": {
+      "id": "srp_axanthic_locus",
+      "name": "Axanthic (SRP Line)",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "srp_axanthic": {
+          "id": "srp_axanthic",
+          "name": "SRP Axanthic",
+          "aliases": [
+            "Axanthic (SRP)"
+          ]
+        }
+      }
+    },
+    "ahi_locus": {
+      "id": "ahi_locus",
+      "name": "AHI",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "ahi": {
+          "id": "ahi",
+          "name": "AHI"
+        }
+      }
+    },
+    "adder_locus": {
+      "id": "adder_locus",
+      "name": "Adder",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "adder": {
+          "id": "adder",
+          "name": "Adder"
+        }
+      }
+    },
+    "alloy_locus": {
+      "id": "alloy_locus",
+      "name": "Alloy",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "alloy": {
+          "id": "alloy",
+          "name": "Alloy"
+        }
+      }
+    },
+    "alpha_locus": {
+      "id": "alpha_locus",
+      "name": "Alpha",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "alpha": {
+          "id": "alpha",
+          "name": "Alpha"
+        }
+      }
+    },
+    "ambush_locus": {
+      "id": "ambush_locus",
+      "name": "Ambush",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "ambush": {
+          "id": "ambush",
+          "name": "Ambush"
+        }
+      }
+    },
+    "arcane_locus": {
+      "id": "arcane_locus",
+      "name": "Arcane",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "arcane": {
+          "id": "arcane",
+          "name": "Arcane"
+        }
+      }
+    },
+    "ashen_locus": {
+      "id": "ashen_locus",
+      "name": "Ashen",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "ashen": {
+          "id": "ashen",
+          "name": "Ashen"
+        }
+      }
+    },
+    "astro_locus": {
+      "id": "astro_locus",
+      "name": "Astro",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "astro": {
+          "id": "astro",
+          "name": "Astro"
+        }
+      }
+    },
+    "aurora_locus": {
+      "id": "aurora_locus",
+      "name": "Aurora",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "aurora": {
+          "id": "aurora",
+          "name": "Aurora"
+        }
+      }
+    },
+    "avalanche_locus": {
+      "id": "avalanche_locus",
+      "name": "Avalanche",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "avalanche": {
+          "id": "avalanche",
+          "name": "Avalanche"
+        }
+      }
+    },
+    "bambino_locus": {
+      "id": "bambino_locus",
+      "name": "Bambino",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "bambino": {
+          "id": "bambino",
+          "name": "Bambino"
+        }
+      }
+    },
+    "banded_bantah_locus": {
+      "id": "banded_bantah_locus",
+      "name": "Banded (Bantah)",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "banded_bantah": {
+          "id": "banded_bantah",
+          "name": "Banded (Bantah)"
+        }
+      }
+    },
+    "biancaball_locus": {
+      "id": "biancaball_locus",
+      "name": "Biancaball",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "biancaball": {
+          "id": "biancaball",
+          "name": "Biancaball"
+        }
+      }
+    },
+    "bingo_locus": {
+      "id": "bingo_locus",
+      "name": "Bingo",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "bingo": {
+          "id": "bingo",
+          "name": "Bingo"
+        }
+      }
+    },
+    "brown_back_locus": {
+      "id": "brown_back_locus",
+      "name": "Brown Back",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "brown_back": {
+          "id": "brown_back",
+          "name": "Brown Back"
+        }
+      }
+    },
+    "cafe_locus": {
+      "id": "cafe_locus",
+      "name": "Cafe",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "cafe": {
+          "id": "cafe",
+          "name": "Cafe"
+        }
+      }
+    },
+    "cajun_locus": {
+      "id": "cajun_locus",
+      "name": "Cajun",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "cajun": {
+          "id": "cajun",
+          "name": "Cajun"
+        }
+      }
+    },
+    "cantaloupe_locus": {
+      "id": "cantaloupe_locus",
+      "name": "Cantaloupe",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "cantaloupe": {
+          "id": "cantaloupe",
+          "name": "Cantaloupe"
+        }
+      }
+    },
+    "chino_locus": {
+      "id": "chino_locus",
+      "name": "Chino",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "chino": {
+          "id": "chino",
+          "name": "Chino"
+        }
+      }
+    },
+    "cloud_locus": {
+      "id": "cloud_locus",
+      "name": "Cloud",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "cloud": {
+          "id": "cloud",
+          "name": "Cloud"
+        }
+      }
+    },
+    "cocoa_locus": {
+      "id": "cocoa_locus",
+      "name": "Cocoa",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "cocoa": {
+          "id": "cocoa",
+          "name": "Cocoa"
+        }
+      }
+    },
+    "creed_locus": {
+      "id": "creed_locus",
+      "name": "Creed",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "creed": {
+          "id": "creed",
+          "name": "Creed"
+        }
+      }
+    },
+    "dark_angel_locus": {
+      "id": "dark_angel_locus",
+      "name": "Dark Angel",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dark_angel": {
+          "id": "dark_angel",
+          "name": "Dark Angel"
+        }
+      }
+    },
+    "dark_matter_locus": {
+      "id": "dark_matter_locus",
+      "name": "Dark Matter",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dark_matter": {
+          "id": "dark_matter",
+          "name": "Dark Matter"
+        }
+      }
+    },
+    "dark_viking_locus": {
+      "id": "dark_viking_locus",
+      "name": "Dark Viking",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "dark_viking": {
+          "id": "dark_viking",
+          "name": "Dark Viking"
+        }
+      }
+    },
+    "darkside_gold_locus": {
+      "id": "darkside_gold_locus",
+      "name": "Darkside Gold",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "darkside_gold": {
+          "id": "darkside_gold",
+          "name": "Darkside Gold"
+        }
+      }
+    },
+    "diesel_locus": {
+      "id": "diesel_locus",
+      "name": "Diesel",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "diesel": {
+          "id": "diesel",
+          "name": "Diesel"
+        }
+      }
+    },
+    "emg_locus": {
+      "id": "emg_locus",
+      "name": "EMG",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "emg": {
+          "id": "emg",
+          "name": "EMG"
+        }
+      }
+    },
+    "eramosa_locus": {
+      "id": "eramosa_locus",
+      "name": "Eramosa",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "eramosa": {
+          "id": "eramosa",
+          "name": "Eramosa"
+        }
+      }
+    },
+    "fnr_vanilla_locus": {
+      "id": "fnr_vanilla_locus",
+      "name": "FNR Vanilla",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "fnr_vanilla": {
+          "id": "fnr_vanilla",
+          "name": "FNR Vanilla"
+        }
+      }
+    },
+    "frost_locus": {
+      "id": "frost_locus",
+      "name": "Frost",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "frost": {
+          "id": "frost",
+          "name": "Frost"
+        }
+      }
+    },
+    "gallium_locus": {
+      "id": "gallium_locus",
+      "name": "Gallium",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "gallium": {
+          "id": "gallium",
+          "name": "Gallium"
+        }
+      }
+    },
+    "glossy_locus": {
+      "id": "glossy_locus",
+      "name": "Glossy",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "glossy": {
+          "id": "glossy",
+          "name": "Glossy"
+        }
+      }
+    },
+    "gobi_locus": {
+      "id": "gobi_locus",
+      "name": "Gobi",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "gobi": {
+          "id": "gobi",
+          "name": "Gobi"
+        }
+      }
+    },
+    "goldfinger_locus": {
+      "id": "goldfinger_locus",
+      "name": "Goldfinger",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "goldfinger": {
+          "id": "goldfinger",
+          "name": "Goldfinger"
+        }
+      }
+    },
+    "gorilla_locus": {
+      "id": "gorilla_locus",
+      "name": "Gorilla",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "gorilla": {
+          "id": "gorilla",
+          "name": "Gorilla"
+        }
+      }
+    },
+    "gypsy_locus": {
+      "id": "gypsy_locus",
+      "name": "Gypsy",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "gypsy": {
+          "id": "gypsy",
+          "name": "Gypsy"
+        }
+      }
+    },
+    "hellfire_locus": {
+      "id": "hellfire_locus",
+      "name": "Hellfire",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "hellfire": {
+          "id": "hellfire",
+          "name": "Hellfire"
+        }
+      }
+    },
+    "hieroglyphic_locus": {
+      "id": "hieroglyphic_locus",
+      "name": "Hieroglyphic",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "hieroglyphic": {
+          "id": "hieroglyphic",
+          "name": "Hieroglyphic"
+        }
+      }
+    },
+    "high_orange_gene_locus": {
+      "id": "high_orange_gene_locus",
+      "name": "High Orange Gene",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "high_orange_gene": {
+          "id": "high_orange_gene",
+          "name": "High Orange Gene",
+          "aliases": [
+            "HOG"
+          ]
+        }
+      }
+    },
+    "iconic_locus": {
+      "id": "iconic_locus",
+      "name": "Iconic",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "iconic": {
+          "id": "iconic",
+          "name": "Iconic"
+        }
+      }
+    },
+    "lc_black_magic_locus": {
+      "id": "lc_black_magic_locus",
+      "name": "LC Black Magic",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "lc_black_magic": {
+          "id": "lc_black_magic",
+          "name": "LC Black Magic"
+        }
+      }
+    },
+    "mancer_locus": {
+      "id": "mancer_locus",
+      "name": "Mancer",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "mancer": {
+          "id": "mancer",
+          "name": "Mancer"
+        }
+      }
+    },
+    "marble_locus": {
+      "id": "marble_locus",
+      "name": "Marble",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "marble": {
+          "id": "marble",
+          "name": "Marble"
+        }
+      }
+    },
+    "matriarch_locus": {
+      "id": "matriarch_locus",
+      "name": "Matriarch",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "matriarch": {
+          "id": "matriarch",
+          "name": "Matriarch"
+        }
+      }
+    },
+    "melt_locus": {
+      "id": "melt_locus",
+      "name": "Melt",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "melt": {
+          "id": "melt",
+          "name": "Melt"
+        }
+      }
+    },
+    "metal_flake_locus": {
+      "id": "metal_flake_locus",
+      "name": "Metal Flake",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "metal_flake": {
+          "id": "metal_flake",
+          "name": "Metal Flake"
+        }
+      }
+    },
+    "mordor_locus": {
+      "id": "mordor_locus",
+      "name": "Mordor",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "mordor": {
+          "id": "mordor",
+          "name": "Mordor"
+        }
+      }
+    },
+    "mosaic_locus": {
+      "id": "mosaic_locus",
+      "name": "Mosaic",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "mosaic": {
+          "id": "mosaic",
+          "name": "Mosaic"
+        }
+      }
+    },
+    "napalm_locus": {
+      "id": "napalm_locus",
+      "name": "Napalm",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "napalm": {
+          "id": "napalm",
+          "name": "Napalm"
+        }
+      }
+    },
+    "neo_locus": {
+      "id": "neo_locus",
+      "name": "Neo",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "neo": {
+          "id": "neo",
+          "name": "Neo"
+        }
+      }
+    },
+    "neon_locus": {
+      "id": "neon_locus",
+      "name": "Neon",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "neon": {
+          "id": "neon",
+          "name": "Neon"
+        }
+      }
+    },
+    "nico_locus": {
+      "id": "nico_locus",
+      "name": "Nico",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "nico": {
+          "id": "nico",
+          "name": "Nico"
+        }
+      }
+    },
+    "nova_locus": {
+      "id": "nova_locus",
+      "name": "Nova",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "nova": {
+          "id": "nova",
+          "name": "Nova"
+        }
+      }
+    },
+    "ofy_locus": {
+      "id": "ofy_locus",
+      "name": "OFY",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "ofy": {
+          "id": "ofy",
+          "name": "OFY"
+        }
+      }
+    },
+    "orange_glow_locus": {
+      "id": "orange_glow_locus",
+      "name": "Orange Glow",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "orange_glow": {
+          "id": "orange_glow",
+          "name": "Orange Glow"
+        }
+      }
+    },
+    "oriole_locus": {
+      "id": "oriole_locus",
+      "name": "Oriole",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "oriole": {
+          "id": "oriole",
+          "name": "Oriole"
+        }
+      }
+    },
+    "phenomenon_locus": {
+      "id": "phenomenon_locus",
+      "name": "Phenomenon",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "phenomenon": {
+          "id": "phenomenon",
+          "name": "Phenomenon"
+        }
+      }
+    },
+    "philistine_locus": {
+      "id": "philistine_locus",
+      "name": "Philistine",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "philistine": {
+          "id": "philistine",
+          "name": "Philistine"
+        }
+      }
+    },
+    "rar_locus": {
+      "id": "rar_locus",
+      "name": "RAR",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "rar": {
+          "id": "rar",
+          "name": "RAR"
+        }
+      }
+    },
+    "reco_locus": {
+      "id": "reco_locus",
+      "name": "RECO",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "reco": {
+          "id": "reco",
+          "name": "RECO"
+        }
+      }
+    },
+    "radioactive_locus": {
+      "id": "radioactive_locus",
+      "name": "Radioactive",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "radioactive": {
+          "id": "radioactive",
+          "name": "Radioactive"
+        }
+      }
+    },
+    "rain_locus": {
+      "id": "rain_locus",
+      "name": "Rain",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "rain": {
+          "id": "rain",
+          "name": "Rain"
+        }
+      }
+    },
+    "reaper_locus": {
+      "id": "reaper_locus",
+      "name": "Reaper",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "reaper": {
+          "id": "reaper",
+          "name": "Reaper"
+        }
+      }
+    },
+    "red_gene_locus": {
+      "id": "red_gene_locus",
+      "name": "Red Gene",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "red_gene": {
+          "id": "red_gene",
+          "name": "Red Gene"
+        }
+      }
+    },
+    "rhino_locus": {
+      "id": "rhino_locus",
+      "name": "Rhino",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "rhino": {
+          "id": "rhino",
+          "name": "Rhino"
+        }
+      }
+    },
+    "rust_locus": {
+      "id": "rust_locus",
+      "name": "Rust",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "rust": {
+          "id": "rust",
+          "name": "Rust"
+        }
+      }
+    },
+    "saar_locus": {
+      "id": "saar_locus",
+      "name": "Saar",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "saar": {
+          "id": "saar",
+          "name": "Saar"
+        }
+      }
+    },
+    "sabre_locus": {
+      "id": "sabre_locus",
+      "name": "Sabre",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "sabre": {
+          "id": "sabre",
+          "name": "Sabre"
+        }
+      }
+    },
+    "shadow_locus": {
+      "id": "shadow_locus",
+      "name": "Shadow",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "shadow": {
+          "id": "shadow",
+          "name": "Shadow"
+        }
+      }
+    },
+    "sherg_locus": {
+      "id": "sherg_locus",
+      "name": "Sherg",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "sherg": {
+          "id": "sherg",
+          "name": "Sherg"
+        }
+      }
+    },
+    "shinobi_locus": {
+      "id": "shinobi_locus",
+      "name": "Shinobi",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "shinobi": {
+          "id": "shinobi",
+          "name": "Shinobi"
+        }
+      }
+    },
+    "silver_ghost_locus": {
+      "id": "silver_ghost_locus",
+      "name": "Silver Ghost",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "silver_ghost": {
+          "id": "silver_ghost",
+          "name": "Silver Ghost"
+        }
+      }
+    },
+    "smoke_locus": {
+      "id": "smoke_locus",
+      "name": "Smoke",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "smoke": {
+          "id": "smoke",
+          "name": "Smoke"
+        }
+      }
+    },
+    "smuggler_locus": {
+      "id": "smuggler_locus",
+      "name": "Smuggler",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "smuggler": {
+          "id": "smuggler",
+          "name": "Smuggler"
+        }
+      }
+    },
+    "solar_locus": {
+      "id": "solar_locus",
+      "name": "Solar",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "solar": {
+          "id": "solar",
+          "name": "Solar"
+        }
+      }
+    },
+    "splash_locus": {
+      "id": "splash_locus",
+      "name": "Splash",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "splash": {
+          "id": "splash",
+          "name": "Splash"
+        }
+      }
+    },
+    "sunrise_locus": {
+      "id": "sunrise_locus",
+      "name": "Sunrise",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "sunrise": {
+          "id": "sunrise",
+          "name": "Sunrise"
+        }
+      }
+    },
+    "surge_locus": {
+      "id": "surge_locus",
+      "name": "Surge",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "surge": {
+          "id": "surge",
+          "name": "Surge"
+        }
+      }
+    },
+    "tango_locus": {
+      "id": "tango_locus",
+      "name": "Tango",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "tango": {
+          "id": "tango",
+          "name": "Tango"
+        }
+      }
+    },
+    "taronja_locus": {
+      "id": "taronja_locus",
+      "name": "Taronja",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "taronja": {
+          "id": "taronja",
+          "name": "Taronja"
+        }
+      }
+    },
+    "the_darkling_locus": {
+      "id": "the_darkling_locus",
+      "name": "The Darkling",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "the_darkling": {
+          "id": "the_darkling",
+          "name": "The Darkling"
+        }
+      }
+    },
+    "tolosa_locus": {
+      "id": "tolosa_locus",
+      "name": "Tolosa",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "tolosa": {
+          "id": "tolosa",
+          "name": "Tolosa"
+        }
+      }
+    },
+    "toxique_locus": {
+      "id": "toxique_locus",
+      "name": "Toxique",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "toxique": {
+          "id": "toxique",
+          "name": "Toxique"
+        }
+      }
+    },
+    "typhoon_locus": {
+      "id": "typhoon_locus",
+      "name": "Typhoon",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "typhoon": {
+          "id": "typhoon",
+          "name": "Typhoon"
+        }
+      }
+    },
+    "victory_locus": {
+      "id": "victory_locus",
+      "name": "Victory",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "victory": {
+          "id": "victory",
+          "name": "Victory"
+        }
+      }
+    },
+    "volcano_locus": {
+      "id": "volcano_locus",
+      "name": "Volcano",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "volcano": {
+          "id": "volcano",
+          "name": "Volcano"
+        }
+      }
+    },
+    "whitewash_locus": {
+      "id": "whitewash_locus",
+      "name": "Whitewash",
+      "inheritance": "recessive",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "whitewash": {
+          "id": "whitewash",
+          "name": "Whitewash"
+        }
+      }
+    },
+    "wrecking_ball_locus": {
+      "id": "wrecking_ball_locus",
+      "name": "Wrecking Ball",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "wrecking_ball": {
+          "id": "wrecking_ball",
+          "name": "Wrecking Ball"
+        }
+      }
+    },
+    "zip_belly_locus": {
+      "id": "zip_belly_locus",
+      "name": "Zip Belly",
+      "inheritance": "incomplete_dominant",
+      "isSexLinked": false,
+      "alleles": {
+        "normal": {
+          "id": "normal",
+          "name": "Normal"
+        },
+        "zip_belly": {
+          "id": "zip_belly",
+          "name": "Zip Belly"
+        }
+      }
     }
   },
   "combos": [
     {
       "marketName": "Super Pastel",
+      "aliases": [
+        "Super Citrus Pastel",
+        "Super Lemon Pastel"
+      ],
       "requiredGenotype": {
         "pastel_locus": [
           "pastel",
@@ -3487,6 +5085,9 @@
     },
     {
       "marketName": "Super Black Pastel",
+      "aliases": [
+        "Super Barnhart Black Pastel"
+      ],
       "requiredGenotype": {
         "cinnamon_complex": [
           "black_pastel",
@@ -3505,6 +5106,11 @@
     },
     {
       "marketName": "Ivory",
+      "aliases": [
+        "Super Flare",
+        "Solar Flare",
+        "Super Yellow Belly"
+      ],
       "requiredGenotype": {
         "yellowbelly_complex": [
           "yellowbelly",
@@ -3580,6 +5186,9 @@
     },
     {
       "marketName": "Rio",
+      "aliases": [
+        "Super Arroyo"
+      ],
       "requiredGenotype": {
         "arroyo_locus": [
           "arroyo",
@@ -3589,6 +5198,10 @@
     },
     {
       "marketName": "Super Asphalt",
+      "aliases": [
+        "401 Ball",
+        "Super RK Asphalt"
+      ],
       "requiredGenotype": {
         "yellowbelly_complex": [
           "asphalt",
@@ -3598,6 +5211,9 @@
     },
     {
       "marketName": "Super Baker Special",
+      "aliases": [
+        "Super Special"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "baker_special",
@@ -3616,6 +5232,9 @@
     },
     {
       "marketName": "Super Bamboo",
+      "aliases": [
+        "Blue-Eyed Lucy (Bam/Bam)"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "bamboo",
@@ -3625,6 +5244,9 @@
     },
     {
       "marketName": "Super Banana",
+      "aliases": [
+        "Super Coral Glow"
+      ],
       "requiredGenotype": {
         "banana_locus": [
           "banana",
@@ -3697,6 +5319,9 @@
     },
     {
       "marketName": "Super Blitz",
+      "aliases": [
+        "Blitzkrieg"
+      ],
       "requiredGenotype": {
         "hurricane_complex": [
           "blitz",
@@ -3715,15 +5340,17 @@
     },
     {
       "marketName": "Super Butter",
+      "aliases": [
+        "Super Lesser",
+        "Blue-Eyed Lucy (But/But)",
+        "Blue-Eyed Lucy (Les/Les)"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
           "lesser"
         ]
-      },
-      "aliases": [
-        "Super Lesser"
-      ]
+      }
     },
     {
       "marketName": "Super Calico",
@@ -3790,6 +5417,9 @@
     },
     {
       "marketName": "Super Chocolate - Garcia",
+      "aliases": [
+        "Super Garcia"
+      ],
       "requiredGenotype": {
         "spider_complex": [
           "chocolate_garcia",
@@ -3916,6 +5546,12 @@
     },
     {
       "marketName": "Super Fire",
+      "aliases": [
+        "Black-eyed Lucy",
+        "Black-eyed Leucistic",
+        "Black-eye Lucy",
+        "Black-eye Leucistic"
+      ],
       "requiredGenotype": {
         "fire_complex": [
           "fire",
@@ -3988,6 +5624,9 @@
     },
     {
       "marketName": "Super Goldblush",
+      "aliases": [
+        "Super Gold Blush"
+      ],
       "requiredGenotype": {
         "goldblush_locus": [
           "goldblush",
@@ -4033,6 +5672,9 @@
     },
     {
       "marketName": "Super Het Daddy",
+      "aliases": [
+        "Daddy"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "het_daddy",
@@ -4042,6 +5684,9 @@
     },
     {
       "marketName": "Atari",
+      "aliases": [
+        "Super Hetari"
+      ],
       "requiredGenotype": {
         "hetari_locus": [
           "hetari",
@@ -4051,6 +5696,9 @@
     },
     {
       "marketName": "Super Hidden Gene Woma",
+      "aliases": [
+        "Pearl"
+      ],
       "requiredGenotype": {
         "spider_complex": [
           "hidden_gene_woma",
@@ -4060,6 +5708,9 @@
     },
     {
       "marketName": "Super High Intensity Orange Dream",
+      "aliases": [
+        "Super High Intensity OD"
+      ],
       "requiredGenotype": {
         "od_complex": [
           "high_intensity_orange_dream",
@@ -4150,6 +5801,9 @@
     },
     {
       "marketName": "Super Kalabash Reduction Gene",
+      "aliases": [
+        "Super KRG"
+      ],
       "requiredGenotype": {
         "kalabash_reduction_gene_locus": [
           "kalabash_reduction_gene",
@@ -4177,6 +5831,9 @@
     },
     {
       "marketName": "White Lace",
+      "aliases": [
+        "Super Lace"
+      ],
       "requiredGenotype": {
         "lace_locus": [
           "lace",
@@ -4186,8 +5843,11 @@
     },
     {
       "marketName": "Super Lace Black Back",
+      "aliases": [
+        "Super Exo-lbb"
+      ],
       "requiredGenotype": {
-        "lace_black_back_locus": [
+        "cinnamon_complex": [
           "lace_black_back",
           "lace_black_back"
         ]
@@ -4195,15 +5855,17 @@
     },
     {
       "marketName": "Super Lemonback",
+      "aliases": [
+        "Super Lucifer",
+        "Super Brite",
+        "Super Mota"
+      ],
       "requiredGenotype": {
         "fire_complex": [
           "lemonback",
           "lemonback"
         ]
-      },
-      "aliases": [
-        "Super Lucifer"
-      ]
+      }
     },
     {
       "marketName": "Super Leopard",
@@ -4216,6 +5878,9 @@
     },
     {
       "marketName": "Suma",
+      "aliases": [
+        "Super Mahogany"
+      ],
       "requiredGenotype": {
         "mahogany_complex": [
           "mahogany",
@@ -4270,6 +5935,9 @@
     },
     {
       "marketName": "Super Mocha",
+      "aliases": [
+        "Latte"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "mocha",
@@ -4279,6 +5947,9 @@
     },
     {
       "marketName": "Super Mojave",
+      "aliases": [
+        "Blue-Eyed Lucy (Moj/Moj)"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "mojave",
@@ -4318,6 +5989,9 @@
     },
     {
       "marketName": "Super NoCo Special",
+      "aliases": [
+        "Super Special (NoCo)"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "noco_special",
@@ -4435,6 +6109,9 @@
     },
     {
       "marketName": "Super Redstripe",
+      "aliases": [
+        "Super Red Stripe"
+      ],
       "requiredGenotype": {
         "redstripe_locus": [
           "redstripe",
@@ -4453,15 +6130,16 @@
     },
     {
       "marketName": "Super Russo",
+      "aliases": [
+        "White Diamond",
+        "Russo Leucistic"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "russo",
           "russo"
         ]
-      },
-      "aliases": [
-        "White Diamond"
-      ]
+      }
     },
     {
       "marketName": "Super Sable",
@@ -4510,6 +6188,9 @@
     },
     {
       "marketName": "Scaleless",
+      "aliases": [
+        "Super Scaleless Head"
+      ],
       "requiredGenotype": {
         "scaleless_complex": [
           "scaleless_head",
@@ -4591,6 +6272,9 @@
     },
     {
       "marketName": "Powerball",
+      "aliases": [
+        "Super Spotnose"
+      ],
       "requiredGenotype": {
         "spider_complex": [
           "spotnose",
@@ -4627,6 +6311,9 @@
     },
     {
       "marketName": "Super Sulfur",
+      "aliases": [
+        "Super Ember"
+      ],
       "requiredGenotype": {
         "fire_complex": [
           "sulfur",
@@ -4636,6 +6323,9 @@
     },
     {
       "marketName": "Super Tiger",
+      "aliases": [
+        "Super Jolliff Tiger"
+      ],
       "requiredGenotype": {
         "tiger_locus": [
           "tiger",
@@ -4762,6 +6452,9 @@
     },
     {
       "marketName": "Super X-Tremist",
+      "aliases": [
+        "Super Xremist"
+      ],
       "requiredGenotype": {
         "x_tremist_locus": [
           "x_tremist",
@@ -5510,6 +7203,852 @@
         "yellowbelly_complex": [
           "specter",
           "yellowbelly"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Lori",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "lori",
+          "lori"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Het Red Axanthic",
+      "aliases": [
+        "Red Axanthic"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "het_red_axanthic"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Huffman",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "huffman",
+          "huffman"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Jolt",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "jolt",
+          "jolt"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Razor",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "razor",
+          "razor"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Orange Belly",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "orange_belly",
+          "orange_belly"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Goblin",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "goblin",
+          "goblin"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Bling Yellow Belly",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "bling_yellow_belly",
+          "bling_yellow_belly"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Whitesmoke",
+      "requiredGenotype": {
+        "banana_locus": [
+          "whitesmoke",
+          "whitesmoke"
+        ]
+      }
+    },
+    {
+      "marketName": "Super TCR Special",
+      "aliases": [
+        "Super Special (TCR)"
+      ],
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "tcr_special",
+          "tcr_special"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Vesper",
+      "requiredGenotype": {
+        "vesper_locus": [
+          "vesper",
+          "vesper"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Patternless X",
+      "requiredGenotype": {
+        "patternless_x_locus": [
+          "patternless_x",
+          "patternless_x"
+        ]
+      }
+    },
+    {
+      "marketName": "Super AHI",
+      "requiredGenotype": {
+        "ahi_locus": [
+          "ahi",
+          "ahi"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Adder",
+      "requiredGenotype": {
+        "adder_locus": [
+          "adder",
+          "adder"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Alloy",
+      "requiredGenotype": {
+        "alloy_locus": [
+          "alloy",
+          "alloy"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Alpha",
+      "requiredGenotype": {
+        "alpha_locus": [
+          "alpha",
+          "alpha"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Ambush",
+      "requiredGenotype": {
+        "ambush_locus": [
+          "ambush",
+          "ambush"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Arcane",
+      "requiredGenotype": {
+        "arcane_locus": [
+          "arcane",
+          "arcane"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Ashen",
+      "requiredGenotype": {
+        "ashen_locus": [
+          "ashen",
+          "ashen"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Astro",
+      "requiredGenotype": {
+        "astro_locus": [
+          "astro",
+          "astro"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Aurora",
+      "requiredGenotype": {
+        "aurora_locus": [
+          "aurora",
+          "aurora"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Avalanche",
+      "requiredGenotype": {
+        "avalanche_locus": [
+          "avalanche",
+          "avalanche"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Bambino",
+      "requiredGenotype": {
+        "bambino_locus": [
+          "bambino",
+          "bambino"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Biancaball",
+      "requiredGenotype": {
+        "biancaball_locus": [
+          "biancaball",
+          "biancaball"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Bingo",
+      "requiredGenotype": {
+        "bingo_locus": [
+          "bingo",
+          "bingo"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Brown Back",
+      "requiredGenotype": {
+        "brown_back_locus": [
+          "brown_back",
+          "brown_back"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Cafe",
+      "requiredGenotype": {
+        "cafe_locus": [
+          "cafe",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Cajun",
+      "requiredGenotype": {
+        "cajun_locus": [
+          "cajun",
+          "cajun"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Cantaloupe",
+      "requiredGenotype": {
+        "cantaloupe_locus": [
+          "cantaloupe",
+          "cantaloupe"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Chino",
+      "requiredGenotype": {
+        "chino_locus": [
+          "chino",
+          "chino"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Cloud",
+      "requiredGenotype": {
+        "cloud_locus": [
+          "cloud",
+          "cloud"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Cocoa",
+      "requiredGenotype": {
+        "cocoa_locus": [
+          "cocoa",
+          "cocoa"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Creed",
+      "requiredGenotype": {
+        "creed_locus": [
+          "creed",
+          "creed"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Dark Angel",
+      "requiredGenotype": {
+        "dark_angel_locus": [
+          "dark_angel",
+          "dark_angel"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Dark Viking",
+      "requiredGenotype": {
+        "dark_viking_locus": [
+          "dark_viking",
+          "dark_viking"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Darkside Gold",
+      "requiredGenotype": {
+        "darkside_gold_locus": [
+          "darkside_gold",
+          "darkside_gold"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Diesel",
+      "requiredGenotype": {
+        "diesel_locus": [
+          "diesel",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "marketName": "Super EMG",
+      "requiredGenotype": {
+        "emg_locus": [
+          "emg",
+          "emg"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Eramosa",
+      "requiredGenotype": {
+        "eramosa_locus": [
+          "eramosa",
+          "eramosa"
+        ]
+      }
+    },
+    {
+      "marketName": "Super FNR Vanilla",
+      "requiredGenotype": {
+        "fnr_vanilla_locus": [
+          "fnr_vanilla",
+          "fnr_vanilla"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Frost",
+      "requiredGenotype": {
+        "frost_locus": [
+          "frost",
+          "frost"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Gallium",
+      "requiredGenotype": {
+        "gallium_locus": [
+          "gallium",
+          "gallium"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Glossy",
+      "requiredGenotype": {
+        "glossy_locus": [
+          "glossy",
+          "glossy"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Gobi",
+      "requiredGenotype": {
+        "gobi_locus": [
+          "gobi",
+          "gobi"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Gorilla",
+      "requiredGenotype": {
+        "gorilla_locus": [
+          "gorilla",
+          "gorilla"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Gypsy",
+      "requiredGenotype": {
+        "gypsy_locus": [
+          "gypsy",
+          "gypsy"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Hellfire",
+      "requiredGenotype": {
+        "hellfire_locus": [
+          "hellfire",
+          "hellfire"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Hieroglyphic",
+      "requiredGenotype": {
+        "hieroglyphic_locus": [
+          "hieroglyphic",
+          "hieroglyphic"
+        ]
+      }
+    },
+    {
+      "marketName": "Super High Orange Gene",
+      "requiredGenotype": {
+        "high_orange_gene_locus": [
+          "high_orange_gene",
+          "high_orange_gene"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Iconic",
+      "requiredGenotype": {
+        "iconic_locus": [
+          "iconic",
+          "iconic"
+        ]
+      }
+    },
+    {
+      "marketName": "Super LC Black Magic",
+      "requiredGenotype": {
+        "lc_black_magic_locus": [
+          "lc_black_magic",
+          "lc_black_magic"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Mancer",
+      "requiredGenotype": {
+        "mancer_locus": [
+          "mancer",
+          "mancer"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Marble",
+      "requiredGenotype": {
+        "marble_locus": [
+          "marble",
+          "marble"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Melt",
+      "requiredGenotype": {
+        "melt_locus": [
+          "melt",
+          "melt"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Mordor",
+      "requiredGenotype": {
+        "mordor_locus": [
+          "mordor",
+          "mordor"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Mosaic",
+      "requiredGenotype": {
+        "mosaic_locus": [
+          "mosaic",
+          "mosaic"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Napalm",
+      "requiredGenotype": {
+        "napalm_locus": [
+          "napalm",
+          "napalm"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Neon",
+      "requiredGenotype": {
+        "neon_locus": [
+          "neon",
+          "neon"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Nico",
+      "requiredGenotype": {
+        "nico_locus": [
+          "nico",
+          "nico"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Nova",
+      "requiredGenotype": {
+        "nova_locus": [
+          "nova",
+          "nova"
+        ]
+      }
+    },
+    {
+      "marketName": "Super OFY",
+      "requiredGenotype": {
+        "ofy_locus": [
+          "ofy",
+          "ofy"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Orange Glow",
+      "requiredGenotype": {
+        "orange_glow_locus": [
+          "orange_glow",
+          "orange_glow"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Oriole",
+      "requiredGenotype": {
+        "oriole_locus": [
+          "oriole",
+          "oriole"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Phenomenon",
+      "requiredGenotype": {
+        "phenomenon_locus": [
+          "phenomenon",
+          "phenomenon"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Philistine",
+      "requiredGenotype": {
+        "philistine_locus": [
+          "philistine",
+          "philistine"
+        ]
+      }
+    },
+    {
+      "marketName": "Super RAR",
+      "requiredGenotype": {
+        "rar_locus": [
+          "rar",
+          "rar"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Radioactive",
+      "requiredGenotype": {
+        "radioactive_locus": [
+          "radioactive",
+          "radioactive"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Rain",
+      "requiredGenotype": {
+        "rain_locus": [
+          "rain",
+          "rain"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Reaper",
+      "requiredGenotype": {
+        "reaper_locus": [
+          "reaper",
+          "reaper"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Red Gene",
+      "requiredGenotype": {
+        "red_gene_locus": [
+          "red_gene",
+          "red_gene"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Rhino",
+      "requiredGenotype": {
+        "rhino_locus": [
+          "rhino",
+          "rhino"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Saar",
+      "requiredGenotype": {
+        "saar_locus": [
+          "saar",
+          "saar"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Sabre",
+      "aliases": [
+        "Scimitar"
+      ],
+      "requiredGenotype": {
+        "sabre_locus": [
+          "sabre",
+          "sabre"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Shadow",
+      "requiredGenotype": {
+        "shadow_locus": [
+          "shadow",
+          "shadow"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Sherg",
+      "requiredGenotype": {
+        "sherg_locus": [
+          "sherg",
+          "sherg"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Shinobi",
+      "requiredGenotype": {
+        "shinobi_locus": [
+          "shinobi",
+          "shinobi"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Silver Ghost",
+      "requiredGenotype": {
+        "silver_ghost_locus": [
+          "silver_ghost",
+          "silver_ghost"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Smoke",
+      "requiredGenotype": {
+        "smoke_locus": [
+          "smoke",
+          "smoke"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Smuggler",
+      "requiredGenotype": {
+        "smuggler_locus": [
+          "smuggler",
+          "smuggler"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Solar",
+      "requiredGenotype": {
+        "solar_locus": [
+          "solar",
+          "solar"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Splash",
+      "requiredGenotype": {
+        "splash_locus": [
+          "splash",
+          "splash"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Sunrise",
+      "requiredGenotype": {
+        "sunrise_locus": [
+          "sunrise",
+          "sunrise"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Surge",
+      "requiredGenotype": {
+        "surge_locus": [
+          "surge",
+          "surge"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Tango",
+      "requiredGenotype": {
+        "tango_locus": [
+          "tango",
+          "tango"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Taronja",
+      "requiredGenotype": {
+        "taronja_locus": [
+          "taronja",
+          "taronja"
+        ]
+      }
+    },
+    {
+      "marketName": "Super The Darkling",
+      "requiredGenotype": {
+        "the_darkling_locus": [
+          "the_darkling",
+          "the_darkling"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Tolosa",
+      "requiredGenotype": {
+        "tolosa_locus": [
+          "tolosa",
+          "tolosa"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Toxique",
+      "requiredGenotype": {
+        "toxique_locus": [
+          "toxique",
+          "toxique"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Typhoon",
+      "requiredGenotype": {
+        "typhoon_locus": [
+          "typhoon",
+          "typhoon"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Victory",
+      "requiredGenotype": {
+        "victory_locus": [
+          "victory",
+          "victory"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Volcano",
+      "requiredGenotype": {
+        "volcano_locus": [
+          "volcano",
+          "volcano"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Wrecking Ball",
+      "requiredGenotype": {
+        "wrecking_ball_locus": [
+          "wrecking_ball",
+          "wrecking_ball"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Zip Belly",
+      "requiredGenotype": {
+        "zip_belly_locus": [
+          "zip_belly",
+          "zip_belly"
         ]
       }
     }
