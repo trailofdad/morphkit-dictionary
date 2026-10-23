@@ -96,6 +96,8 @@ npx ajv-cli validate -s schema.json -d dictionary.json
 | `"incomplete_dominant"` | One copy expresses; two copies produce a distinct "super" phenotype; also used for allelic complexes |
 | `"polygenic"` | Multi-gene trait; not modeled by the Punnett engine |
 
+**`supersededBy`** (optional) — marks a legacy duplicate of another locus (e.g. `genetic_stripe_locus` → `g_stripe_locus`). The locus stays valid because stored genotypes may reference its id, but name and alias lookups prefer the superseding locus when both match, so a shared name like `"Genetic Stripe"` resolves instead of being ambiguous.
+
 Every locus **must** include a `"normal"` allele. Allelic complexes (e.g. Yellowbelly Complex, Cinnamon Complex) are modeled by adding more than two alleles to a single locus.
 
 ---
