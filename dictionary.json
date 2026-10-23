@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "lastUpdated": "2026-10-23T01:38:14Z",
+  "lastUpdated": "2026-10-23T01:43:05Z",
   "loci": {
     "pied_locus": {
       "id": "pied_locus",
@@ -5096,7 +5096,11 @@
       }
     },
     {
-      "marketName": "Pewter",
+      "marketName": "8 Ball",
+      "aliases": [
+        "Black Pastel Pewter",
+        "Eight Ball"
+      ],
       "requiredGenotype": {
         "cinnamon_complex": [
           "cinnamon",
@@ -5343,7 +5347,8 @@
       "aliases": [
         "Super Lesser",
         "Blue-Eyed Lucy (But/But)",
-        "Blue-Eyed Lucy (Les/Les)"
+        "Blue-Eyed Lucy (Les/Les)",
+        "Blue-Eyed Lucy (But/Les)"
       ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
@@ -6473,6 +6478,9 @@
     },
     {
       "marketName": "Bumblebee",
+      "aliases": [
+        "Bumble Bee"
+      ],
       "requiredGenotype": {
         "pastel_locus": [
           "pastel",
@@ -6486,6 +6494,11 @@
     },
     {
       "marketName": "Butterbee",
+      "aliases": [
+        "Lesserbee",
+        "Butter Bee",
+        "Lesser Bee"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6495,13 +6508,13 @@
           "spider",
           "normal"
         ]
-      },
-      "aliases": [
-        "Lesserbee"
-      ]
+      }
     },
     {
       "marketName": "Butterfly",
+      "aliases": [
+        "Butter Fly"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6536,6 +6549,9 @@
     },
     {
       "marketName": "Calibee",
+      "aliases": [
+        "Cali Bee"
+      ],
       "requiredGenotype": {
         "calico_locus": [
           "calico",
@@ -6597,6 +6613,9 @@
     },
     {
       "marketName": "Dragonfly",
+      "aliases": [
+        "Dragon Fly"
+      ],
       "requiredGenotype": {
         "pastel_locus": [
           "pastel",
@@ -6627,6 +6646,10 @@
     },
     {
       "marketName": "Emperor Pin",
+      "aliases": [
+        "Emperor Pinstripe",
+        "Queen Pin"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6644,6 +6667,9 @@
     },
     {
       "marketName": "Firefly",
+      "aliases": [
+        "Fire Fly"
+      ],
       "requiredGenotype": {
         "pastel_locus": [
           "pastel",
@@ -6730,6 +6756,10 @@
     },
     {
       "marketName": "Karma",
+      "aliases": [
+        "Blue-Eyed Lucy (Les/Pha)",
+        "Blue-Eyed Lucy (Les/Mys)"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6739,6 +6769,9 @@
     },
     {
       "marketName": "Killerbee",
+      "aliases": [
+        "Killer Bee"
+      ],
       "requiredGenotype": {
         "spider_complex": [
           "spider",
@@ -6752,6 +6785,9 @@
     },
     {
       "marketName": "Lemonblast",
+      "aliases": [
+        "Lemon Blast"
+      ],
       "requiredGenotype": {
         "pastel_locus": [
           "pastel",
@@ -6800,18 +6836,23 @@
     },
     {
       "marketName": "Mystic Potion",
+      "aliases": [
+        "Purple Passion",
+        "Phantom Potion"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "phantom",
           "mojave"
         ]
-      },
-      "aliases": [
-        "Purple Passion"
-      ]
+      }
     },
     {
       "marketName": "Opal Diamond",
+      "aliases": [
+        "Invisi-ball",
+        "Invisiball"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "phantom",
@@ -6847,6 +6888,11 @@
     },
     {
       "marketName": "Platty Daddy",
+      "aliases": [
+        "Butter Daddy",
+        "Lesser Platinum",
+        "Platinum"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6865,6 +6911,9 @@
     },
     {
       "marketName": "Queenbee",
+      "aliases": [
+        "Queen Bee"
+      ],
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6881,7 +6930,7 @@
       }
     },
     {
-      "marketName": "Queenspin",
+      "marketName": "Killer Queenspin",
       "requiredGenotype": {
         "blue_eyed_lucy_complex": [
           "lesser",
@@ -6946,6 +6995,9 @@
     },
     {
       "marketName": "Superfly",
+      "aliases": [
+        "Super Fly"
+      ],
       "requiredGenotype": {
         "fire_complex": [
           "fire",
@@ -6959,6 +7011,9 @@
     },
     {
       "marketName": "Superstripe",
+      "aliases": [
+        "Super Stripe"
+      ],
       "requiredGenotype": {
         "yellowbelly_complex": [
           "specter",
@@ -6990,6 +7045,9 @@
     },
     {
       "marketName": "Vanilla Scream",
+      "aliases": [
+        "Scream"
+      ],
       "requiredGenotype": {
         "pastel_locus": [
           "pastel",
@@ -7161,15 +7219,15 @@
     },
     {
       "marketName": "Candino",
+      "aliases": [
+        "Toffino"
+      ],
       "requiredGenotype": {
         "albino_complex": [
           "albino",
           "candy"
         ]
-      },
-      "aliases": [
-        "Toffino"
-      ]
+      }
     },
     {
       "marketName": "Snow",
@@ -7194,15 +7252,6 @@
         "cinnamon_complex": [
           "black_pastel",
           "black_pastel"
-        ]
-      }
-    },
-    {
-      "marketName": "Super Stripe",
-      "requiredGenotype": {
-        "yellowbelly_complex": [
-          "specter",
-          "yellowbelly"
         ]
       }
     },
@@ -8049,6 +8098,3218 @@
         "zip_belly_locus": [
           "zip_belly",
           "zip_belly"
+        ]
+      }
+    },
+    {
+      "marketName": "Pewter",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Queenspin",
+      "aliases": [
+        "Queen Spin"
+      ],
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pumpkin Pied",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ]
+      }
+    },
+    {
+      "marketName": "Leopard Pied",
+      "requiredGenotype": {
+        "pied_locus": [
+          "pied",
+          "pied"
+        ],
+        "leopard_locus": [
+          "leopard",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Odyb",
+      "requiredGenotype": {
+        "od_complex": [
+          "orange_dream",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pyro Pied",
+      "requiredGenotype": {
+        "pied_locus": [
+          "pied",
+          "pied"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Triton",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "od_complex": [
+          "orange_dream",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Candied Clown",
+      "requiredGenotype": {
+        "clown_complex": [
+          "clown",
+          "clown"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Fire",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Magic",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Nightmare",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "od_complex": [
+          "orange_dream",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Pewter",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Blanchi",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "enchi"
+        ]
+      }
+    },
+    {
+      "marketName": "Halloween",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "od_complex": [
+          "orange_dream",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Halloween Pied",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ],
+        "od_complex": [
+          "orange_dream",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Pin",
+      "aliases": [
+        "Black Pinstripe"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Firing Pin",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Stinger Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Pewter Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Havoc",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "spider_complex": [
+          "spotnose",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Golden Eye",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "ghi_locus": [
+          "ghi",
+          "normal"
+        ],
+        "black_head_complex": [
+          "black_head",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Kingpin",
+      "aliases": [
+        "King Pin"
+      ],
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Ocelot",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "leopard_locus": [
+          "leopard",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinna Belly",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinna Pin",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Firemon",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Savannah",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Twilight",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spotnose",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Chainsaw",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Frostbite",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "cinnamon"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Night Crawler",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "spotnose",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pewter Belly",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pewter Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Savannah Pewter",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Leatherface",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Hot Chocolate",
+      "requiredGenotype": {
+        "spider_complex": [
+          "chocolate",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Chocolate Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "chocolate",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Blast",
+      "aliases": [
+        "Killer Blast"
+      ],
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Killer Pied",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ]
+      }
+    },
+    {
+      "marketName": "Silver Streak",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Sterling",
+      "aliases": [
+        "Sterling Pastel"
+      ],
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Sherbert Fly",
+      "aliases": [
+        "Super Dragon Fly"
+      ],
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Sonnet Ball",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Sterling Yellow Belly",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Emperor",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Ultrafly",
+      "aliases": [
+        "Ultra Fly"
+      ],
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Silver Surfer",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Yellow Brick Road",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "asphalt",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Ultra Pin",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "ultramel_locus": [
+          "ultramel",
+          "ultramel"
+        ]
+      }
+    },
+    {
+      "marketName": "Brass Ball",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "vanilla",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Cream",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "vanilla",
+          "fire"
+        ]
+      }
+    },
+    {
+      "marketName": "Rodeo",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "fire_complex": [
+          "vanilla",
+          "fire"
+        ]
+      }
+    },
+    {
+      "marketName": "Vanilla Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "vanilla",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "True Ghost Vpi",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "vpi_axanthic_locus": [
+          "vpi_axanthic",
+          "vpi_axanthic"
+        ]
+      }
+    },
+    {
+      "marketName": "Lavender Snow",
+      "requiredGenotype": {
+        "vpi_axanthic_locus": [
+          "vpi_axanthic",
+          "vpi_axanthic"
+        ],
+        "lavender_albino_locus": [
+          "lavender_albino",
+          "lavender_albino"
+        ]
+      }
+    },
+    {
+      "marketName": "Butter Belly",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Lithium",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Nuclear",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Lithium Fire",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Nuclear Pinstripe",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Biohazard",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Lithium Blaze",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cream Diamond",
+      "requiredGenotype": {
+        "fire_complex": [
+          "vanilla",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "baker_special",
+          "mojave"
+        ]
+      }
+    },
+    {
+      "marketName": "Pastel Crystal",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "baker_special",
+          "mojave"
+        ]
+      }
+    },
+    {
+      "marketName": "Special Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "baker_special",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Titan",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "baker_special",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Bubblegum",
+      "aliases": [
+        "Bubble Gum"
+      ],
+      "requiredGenotype": {
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinna Cal",
+      "requiredGenotype": {
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Buttered Rum",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Chocolate Peanut Butter Oreo Blizzard",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Oreo Blizzard",
+      "aliases": [
+        "Black Oreo Blizzard"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinnamon Oreo Blizzard",
+      "requiredGenotype": {
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Baja",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "g_stripe_locus": [
+          "g_stripe",
+          "g_stripe"
+        ],
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Real",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "lace_locus": [
+          "lace",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Kraken 1.0",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "clown_complex": [
+          "clown",
+          "clown"
+        ],
+        "ghi_locus": [
+          "ghi",
+          "normal"
+        ],
+        "spider_complex": [
+          "wookie",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Kraken 2.0",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "clown_complex": [
+          "clown",
+          "clown"
+        ],
+        "ghi_locus": [
+          "ghi",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "spider_complex": [
+          "wookie",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Banana Bee",
+      "requiredGenotype": {
+        "banana_locus": [
+          "banana",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Bee",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinna Bee",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Motley Bee",
+      "requiredGenotype": {
+        "g_stripe_locus": [
+          "g_stripe",
+          "g_stripe"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Spied",
+      "requiredGenotype": {
+        "pied_locus": [
+          "pied",
+          "pied"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Stinger Bee",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Vanilla Bee",
+      "requiredGenotype": {
+        "fire_complex": [
+          "vanilla",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Widow",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Bumble Belly",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinna Spin",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Fire Bee",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Hornet",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "g_stripe_locus": [
+          "g_stripe",
+          "g_stripe"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Humble Bee",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Killer Hornet",
+      "requiredGenotype": {
+        "g_stripe_locus": [
+          "g_stripe",
+          "g_stripe"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Killer Queenbee",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Killer Spinner",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "King Spin",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Nuclear Spider",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pastave Bee",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pewter Bee",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Sterling Bee",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Stingless Bee",
+      "aliases": [
+        "Stinging Bumble Bee"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Swarm",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Bush Fire",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Calico Power",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cheetah",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "leopard_locus": [
+          "leopard",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Dirt Road",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "asphalt",
+          "yellowbelly"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Ghost Killa",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Ghostbuster",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Leopard Extra",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "leopard_locus": [
+          "leopard",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Mochi Bumble Bee",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Nuclear Bee",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Nuclear Spinner",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Rainbow Banana",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "banana_locus": [
+          "banana",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Xplosive Cream",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "vanilla"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Sunglow",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "albino_complex": [
+          "albino",
+          "albino"
+        ]
+      }
+    },
+    {
+      "marketName": "Sodyb",
+      "requiredGenotype": {
+        "od_complex": [
+          "orange_dream",
+          "orange_dream"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Uranium Blast",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ],
+        "cinnamon_complex": [
+          "enchi",
+          "enchi"
+        ]
+      }
+    },
+    {
+      "marketName": "Deep Purple Passion",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "phantom",
+          "mojave"
+        ]
+      }
+    },
+    {
+      "marketName": "Coral Reef",
+      "requiredGenotype": {
+        "ghi_locus": [
+          "ghi",
+          "normal"
+        ],
+        "banana_locus": [
+          "banana",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Coral Bee",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "banana_locus": [
+          "banana",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Perignon",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spotnose",
+          "champagne"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Matter",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "cinnamon"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Pewterpagne",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Buttery Nipple",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Mojito",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Nuclear Champagne",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Pewterpagne",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Onyx",
+      "aliases": [
+        "Black Gargoyle"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "het_red_axanthic"
+        ]
+      }
+    },
+    {
+      "marketName": "Gargoyle",
+      "aliases": [
+        "Gargoyle (Cin/HRA)"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "cinnamon"
+        ]
+      }
+    },
+    {
+      "marketName": "Dota",
+      "requiredGenotype": {
+        "fire_complex": [
+          "vanilla",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Lightning Bug",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Asystole",
+      "requiredGenotype": {
+        "clown_complex": [
+          "clown",
+          "clown"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "normal"
+        ],
+        "spider_complex": [
+          "spider",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Wanna Bee",
+      "requiredGenotype": {
+        "spider_complex": [
+          "hidden_gene_woma",
+          "spider"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Glow",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "specter",
+          "yellowbelly"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ]
+      }
+    },
+    {
+      "marketName": "True Ghost Tsk",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "sk_axanthic_complex": [
+          "sk_axanthic",
+          "sk_axanthic"
+        ]
+      }
+    },
+    {
+      "marketName": "Acetone",
+      "requiredGenotype": {
+        "fire_complex": [
+          "fire",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Acid",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Lemon Drop",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Heartburn",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Riddler",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spotnose",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Sorcery",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Strik9",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Aquila",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "bamboo",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Bambee",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "bamboo",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Ellie Ball",
+      "requiredGenotype": {
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "yellowbelly"
+        ]
+      }
+    },
+    {
+      "marketName": "Corcra",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "phantom",
+          "mojave"
+        ]
+      }
+    },
+    {
+      "marketName": "Diablo",
+      "requiredGenotype": {
+        "sugar_locus": [
+          "sugar",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cougar",
+      "requiredGenotype": {
+        "spider_complex": [
+          "spider",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "spark",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Grenade",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "spark",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Hiodyb",
+      "requiredGenotype": {
+        "od_complex": [
+          "high_intensity_orange_dream",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cherry Bomb",
+      "requiredGenotype": {
+        "albino_complex": [
+          "albino",
+          "albino"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "mojave"
+        ]
+      }
+    },
+    {
+      "marketName": "Bazinga",
+      "requiredGenotype": {
+        "hurricane_complex": [
+          "trick",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Chetah",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "hurricane_complex": [
+          "trick",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Picasso",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "hurricane_complex": [
+          "trick",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Siren",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "huffman"
+        ]
+      }
+    },
+    {
+      "marketName": "Graffiti",
+      "requiredGenotype": {
+        "calico_locus": [
+          "calico",
+          "normal"
+        ],
+        "paint_locus": [
+          "paint",
+          "paint"
+        ]
+      }
+    },
+    {
+      "marketName": "True Ghost Mj",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "mj_axanthic_complex": [
+          "mj_axanthic",
+          "mj_axanthic"
+        ]
+      }
+    },
+    {
+      "marketName": "Ebony",
+      "requiredGenotype": {
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Orion",
+      "requiredGenotype": {
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "specter"
+        ]
+      }
+    },
+    {
+      "marketName": "Superferno",
+      "aliases": [
+        "Super Inferno"
+      ],
+      "requiredGenotype": {
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Angel Of Death",
+      "requiredGenotype": {
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinny Ferno",
+      "requiredGenotype": {
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Enchiferno",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Red Spectrum",
+      "requiredGenotype": {
+        "granite_locus": [
+          "granite",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Gray Matter",
+      "aliases": [
+        "Grey Matter"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ],
+        "spider_complex": [
+          "champagne",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Mercury",
+      "aliases": [
+        "Mercury Ball"
+      ],
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Silver Bullet",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Pewter",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "White Panda",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ]
+      }
+    },
+    {
+      "marketName": "Urban Camo",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "cinnamon"
+        ],
+        "pied_locus": [
+          "pied",
+          "normal"
+        ],
+        "sandblast_locus": [
+          "sandblast",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Camo",
+      "aliases": [
+        "Camouflage"
+      ],
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "spider_complex": [
+          "chocolate",
+          "chocolate"
+        ]
+      }
+    },
+    {
+      "marketName": "True Ghost Gcr",
+      "requiredGenotype": {
+        "mj_axanthic_complex": [
+          "gcr_axanthic",
+          "gcr_axanthic"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ]
+      }
+    },
+    {
+      "marketName": "Obsidian",
+      "requiredGenotype": {
+        "black_head_complex": [
+          "black_head",
+          "normal"
+        ],
+        "mahogany_complex": [
+          "mahogany",
+          "mahogany"
+        ]
+      }
+    },
+    {
+      "marketName": "Orca",
+      "requiredGenotype": {
+        "black_head_complex": [
+          "black_head",
+          "normal"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ],
+        "mahogany_complex": [
+          "mahogany",
+          "mahogany"
+        ]
+      }
+    },
+    {
+      "marketName": "Dulce De Leche",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "honey",
+          "bamboo"
+        ]
+      }
+    },
+    {
+      "marketName": "Dark Side",
+      "requiredGenotype": {
+        "lace_locus": [
+          "lace",
+          "normal"
+        ],
+        "spider_complex": [
+          "sable",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Mudball",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "spider_complex": [
+          "sable",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Saffron",
+      "requiredGenotype": {
+        "spider_complex": [
+          "champagne",
+          "sable"
+        ]
+      }
+    },
+    {
+      "marketName": "Shiodyb",
+      "requiredGenotype": {
+        "od_complex": [
+          "high_intensity_orange_dream",
+          "high_intensity_orange_dream"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Red Devil",
+      "requiredGenotype": {
+        "g_stripe_locus": [
+          "g_stripe",
+          "g_stripe"
+        ],
+        "redstripe_locus": [
+          "redstripe",
+          "redstripe"
+        ]
+      }
+    },
+    {
+      "marketName": "Amoretti",
+      "requiredGenotype": {
+        "fire_complex": [
+          "vanilla",
+          "flame"
+        ]
+      }
+    },
+    {
+      "marketName": "Raven Claw",
+      "requiredGenotype": {
+        "spider_complex": [
+          "woma",
+          "normal"
+        ],
+        "leopard_locus": [
+          "leopard",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Floma",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "spider_complex": [
+          "woma",
+          "normal"
+        ],
+        "fire_complex": [
+          "fire",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Silver Cinder",
+      "requiredGenotype": {
+        "mahogany_complex": [
+          "cinder",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "black_pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Boom",
+      "requiredGenotype": {
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "fire_complex": [
+          "sulfur",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Caramel Glow",
+      "requiredGenotype": {
+        "caramel_albino_locus": [
+          "caramel_albino",
+          "caramel_albino"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ]
+      }
+    },
+    {
+      "marketName": "Cinnamel",
+      "aliases": [
+        "Cinna Mel"
+      ],
+      "requiredGenotype": {
+        "caramel_albino_locus": [
+          "caramel_albino",
+          "caramel_albino"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Caravanah",
+      "requiredGenotype": {
+        "caramel_albino_locus": [
+          "caramel_albino",
+          "caramel_albino"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Leche",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "mocha",
+          "phantom"
+        ]
+      }
+    },
+    {
+      "marketName": "Panda Pied",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "black_pastel"
+        ],
+        "pied_locus": [
+          "pied",
+          "pied"
+        ]
+      }
+    },
+    {
+      "marketName": "Super Black Pewter",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "black_pastel"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Yellow Snow",
+      "requiredGenotype": {
+        "albino_complex": [
+          "albino",
+          "albino"
+        ],
+        "cinnamon_complex": [
+          "het_red_axanthic",
+          "het_red_axanthic"
+        ]
+      }
+    },
+    {
+      "marketName": "Beast",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "enchi",
+          "normal"
+        ],
+        "odium_locus": [
+          "odium",
+          "normal"
+        ],
+        "spider_complex": [
+          "hidden_gene_woma",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "mojave",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Black Razor",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "black_pastel",
+          "razor"
+        ]
+      }
+    },
+    {
+      "marketName": "Whiplash",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "jolt",
+          "black_pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Platiator",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "het_daddy"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "pinstripe_locus": [
+          "pinstripe",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Amber Pastel",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "mahogany_complex": [
+          "mahogany",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Polar Ball",
+      "requiredGenotype": {
+        "albino_complex": [
+          "albino",
+          "albino"
+        ],
+        "blue_eyed_lucy_complex": [
+          "russo",
+          "russo"
+        ]
+      }
+    },
+    {
+      "marketName": "Static Electricity",
+      "requiredGenotype": {
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "acid_locus": [
+          "acid",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Darth Fader",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "lesser",
+          "normal"
+        ],
+        "fader_locus": [
+          "fader",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Sphere",
+      "requiredGenotype": {
+        "blue_eyed_lucy_complex": [
+          "phantom",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "lori",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Titanium",
+      "requiredGenotype": {
+        "epic_locus": [
+          "epic",
+          "normal"
+        ],
+        "blue_eyed_lucy_complex": [
+          "baker_special",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ],
+        "pastel_locus": [
+          "pastel",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Gargoyle (LBB/BP)",
+      "requiredGenotype": {
+        "cinnamon_complex": [
+          "lace_black_back",
+          "black_pastel"
+        ]
+      }
+    },
+    {
+      "marketName": "Eraserhead",
+      "requiredGenotype": {
+        "fire_complex": [
+          "lemonback",
+          "vanilla"
+        ]
+      }
+    },
+    {
+      "marketName": "Mephisto",
+      "requiredGenotype": {
+        "fader_locus": [
+          "fader",
+          "normal"
+        ],
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "fire_complex": [
+          "lemonback",
+          "normal"
+        ],
+        "coffee_locus": [
+          "coffee",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Orange Burst",
+      "requiredGenotype": {
+        "hypo_locus": [
+          "hypo",
+          "hypo"
+        ],
+        "orange_glow_locus": [
+          "orange_glow",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "Gryphon",
+      "requiredGenotype": {
+        "brown_back_locus": [
+          "brown_back",
+          "normal"
+        ],
+        "cinnamon_complex": [
+          "cinnamon",
+          "normal"
+        ]
+      }
+    },
+    {
+      "marketName": "True Ghost Jolliff",
+      "requiredGenotype": {
+        "joliff_axanthic_locus": [
+          "joliff_axanthic",
+          "joliff_axanthic"
+        ],
+        "hypo_locus": [
+          "hypo",
+          "hypo"
         ]
       }
     }
