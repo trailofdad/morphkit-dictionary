@@ -1,6 +1,6 @@
 {
   "version": "4.1.0",
-  "lastUpdated": "2026-10-23T01:43:05Z",
+  "lastUpdated": "2026-10-23T01:51:39Z",
   "loci": {
     "pied_locus": {
       "id": "pied_locus",
@@ -1371,7 +1371,6 @@
           "aliases": [
             "Lucifer",
             "Mota",
-            "Sauce",
             "Brite"
           ]
         },
@@ -1407,6 +1406,13 @@
           ],
           "aliases": [
             "Thunder"
+          ]
+        },
+        "sauce": {
+          "id": "sauce",
+          "name": "Sauce",
+          "shortNames": [
+            "Sauce"
           ]
         }
       }
@@ -2845,6 +2851,7 @@
       "name": "Sauce",
       "inheritance": "incomplete_dominant",
       "isSexLinked": false,
+      "supersededBy": "fire_complex",
       "alleles": {
         "normal": {
           "id": "normal",
@@ -6185,7 +6192,7 @@
     {
       "marketName": "Super Sauce",
       "requiredGenotype": {
-        "sauce_locus": [
+        "fire_complex": [
           "sauce",
           "sauce"
         ]
@@ -7024,9 +7031,9 @@
     {
       "marketName": "Ultra Snow",
       "requiredGenotype": {
-        "axanthic_unknown_locus": [
-          "axanthic_unknown",
-          "axanthic_unknown"
+        "vpi_axanthic_locus": [
+          "vpi_axanthic",
+          "vpi_axanthic"
         ],
         "ultramel_locus": [
           "ultramel",
@@ -7236,9 +7243,9 @@
           "albino",
           "albino"
         ],
-        "axanthic_unknown_locus": [
-          "axanthic_unknown",
-          "axanthic_unknown"
+        "vpi_axanthic_locus": [
+          "vpi_axanthic",
+          "vpi_axanthic"
         ]
       }
     },
@@ -11310,6 +11317,19 @@
         "hypo_locus": [
           "hypo",
           "hypo"
+        ]
+      }
+    },
+    {
+      "marketName": "Hot Sauce",
+      "requiredGenotype": {
+        "yellowbelly_complex": [
+          "yellowbelly",
+          "normal"
+        ],
+        "fire_complex": [
+          "sauce",
+          "normal"
         ]
       }
     }
